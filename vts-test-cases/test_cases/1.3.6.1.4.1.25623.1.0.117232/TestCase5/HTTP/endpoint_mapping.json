@@ -1,0 +1,119 @@
+{
+  "Endpoints": [
+    {
+      "URI": "/",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "cache-control": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5~dev1)",
+                  "accept": "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*",
+                  "accept-language": "en",
+                  "accept-charset": "iso-8859-1,*,utf-8"
+                },
+                "Body": {},
+                "Responses": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "ID": "GET2",
+                "URL_Parameters": "",
+                "Headers": {
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5)"
+                },
+                "Body": {},
+                "Responses": [
+                  1
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "404",
+              "Headers": {
+                "Server": "Apache",
+                "X-Powered-By": "PHP/5.2.17",
+                "X-UA-Compatible": "IE=EmulateIE7",
+                "Transfer-Encoding": "chunked",
+                "Content-Type": "text/html"
+              },
+              "Body": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<title>\u7f51\u7ad9\u8bbf\u95ee\u62a5\u9519</title>\n<style type=\"text/css\">\n* { padding:0; margin:0;}\nli { list-style:none;}\nimg { border:none;}\n.clear { zoom:1;}\n.clear:after { content:'\u0010'; clear:both; display:block;}\n\n.error-page { width:940px; margin:0 auto; padding-top:110px;}\n.error-page-left { width:440px; float:left; background:url(images/404-pic.gif) no-repeat 22px 0; height:478px;}\n.error-page-right { width:500px; float:left;}\n.error-page-right h3 { line-height:114px; font-size:22px; color:#333; font-weight:600; padding-top:10px;}\n.error-page-title { line-height:24px; font-size:14px; color:#333;}\n.error-page-title a { color:#0066cc; text-decoration:underline;}\n.error-page-txt { line-height:24px; padding-left:40px; font-size:14px; color:#333; padding-bottom:9px;}\n.error-page-txt a { color:#0066cc; text-decoration:underline;}\n</style>\n</head>\n\n<body>\n<div class=\"error-page\">\n\t<div class=\"error-page-left\">&nbsp;</div>\n    <div class=\"error-page-right\">\n    \t<h3>\u62b1\u6b49\uff01\u8be5\u7f51\u7ad9\u53ef\u80fd\u7531\u4e8e\u4ee5\u4e0b\u539f\u56e0\u65e0\u6cd5\u8bbf\u95ee\uff01</h3>\n    \t<p class=\"error-page-title\">>>1\u3001\u60a8\u8bbf\u95ee\u7684\u57df\u540d\u672a\u7ed1\u5b9a\u81f3\u4e3b\u673a\uff1b</p>\n        <p class=\"error-page-txt\">\u89e3\u51b3\u65b9\u6cd5\uff1a\u9700\u8981\u7f51\u7ad9\u7ba1\u7406\u5458\u767b\u5f55<a href=\"http://cp.hichina.com/\" target=\"_blank\">\u4e07\u7f51\u4e3b\u673a\u63a7\u5236\u9762\u677f</a>\u7ed1\u5b9a\u57df\u540d\uff0c\u963f\u91cc\u4e91\u8d26\u53f7\u8bf7\u767b\u5f55<a href=\"https://netcn.console.aliyun.com/core/host/list2\" target=\"_blank\">\u963f\u91cc\u4e91\u865a\u62df\u4e3b\u673a\u63a7\u5236\u53f0</a>\u7ed1\u5b9a\u3002</p>\n        <p class=\"error-page-title\">>>2\u3001\u60a8\u6b63\u5728\u4f7f\u7528IP\u8bbf\u95ee\uff1b</p>\n        <p class=\"error-page-txt\">\u89e3\u51b3\u65b9\u6cd5\uff1a\u8bf7\u5c1d\u8bd5\u4f7f\u7528\u57df\u540d\u8fdb\u884c\u8bbf\u95ee\u3002</p>\n        <p class=\"error-page-title\">>>3\u3001\u8be5\u7ad9\u70b9\u5df2\u88ab\u7f51\u7ad9\u7ba1\u7406\u5458\u505c\u6b62\uff1b</p>\n        <p class=\"error-page-txt\">\u89e3\u51b3\u65b9\u6cd5\uff1a\u9700\u8981\u7f51\u7ad9\u7ba1\u7406\u5458\u767b\u5f55<a href=\"http://cp.hichina.com/\" target=\"_blank\">\u4e07\u7f51\u4e3b\u673a\u63a7\u5236\u9762\u677f</a>\u5f00\u542f\u7ad9\u70b9\uff0c\u963f\u91cc\u4e91\u8d26\u53f7\u8bf7\u767b\u5f55<a href=\"https://netcn.console.aliyun.com/core/host/list2\" target=\"_blank\">\u963f\u91cc\u4e91\u865a\u62df\u4e3b\u673a\u63a7\u5236\u53f0</a>\u8fdb\u884c\u5f00\u901a\u3002</p>        \n    </div>\n</div>\n</body>\n</html> \n"
+            },
+            {
+              "Status": "404",
+              "Headers": {
+                "Server": "Apache",
+                "X-Powered-By": "PHP/5.2.17",
+                "X-UA-Compatible": "IE=EmulateIE7",
+                "Keep-Alive": "timeout=15, max=300",
+                "Transfer-Encoding": "chunked",
+                "Content-Type": "text/html"
+              },
+              "Body": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<title>\u7f51\u7ad9\u8bbf\u95ee\u62a5\u9519</title>\n<style type=\"text/css\">\n* { padding:0; margin:0;}\nli { list-style:none;}\nimg { border:none;}\n.clear { zoom:1;}\n.clear:after { content:'\u0010'; clear:both; display:block;}\n\n.error-page { width:940px; margin:0 auto; padding-top:110px;}\n.error-page-left { width:440px; float:left; background:url(images/404-pic.gif) no-repeat 22px 0; height:478px;}\n.error-page-right { width:500px; float:left;}\n.error-page-right h3 { line-height:114px; font-size:22px; color:#333; font-weight:600; padding-top:10px;}\n.error-page-title { line-height:24px; font-size:14px; color:#333;}\n.error-page-title a { color:#0066cc; text-decoration:underline;}\n.error-page-txt { line-height:24px; padding-left:40px; font-size:14px; color:#333; padding-bottom:9px;}\n.error-page-txt a { color:#0066cc; text-decoration:underline;}\n</style>\n</head>\n\n<body>\n<div class=\"error-page\">\n\t<div class=\"error-page-left\">&nbsp;</div>\n    <div class=\"error-page-right\">\n    \t<h3>\u62b1\u6b49\uff01\u8be5\u7f51\u7ad9\u53ef\u80fd\u7531\u4e8e\u4ee5\u4e0b\u539f\u56e0\u65e0\u6cd5\u8bbf\u95ee\uff01</h3>\n    \t<p class=\"error-page-title\">>>1\u3001\u60a8\u8bbf\u95ee\u7684\u57df\u540d\u672a\u7ed1\u5b9a\u81f3\u4e3b\u673a\uff1b</p>\n        <p class=\"error-page-txt\">\u89e3\u51b3\u65b9\u6cd5\uff1a\u9700\u8981\u7f51\u7ad9\u7ba1\u7406\u5458\u767b\u5f55<a href=\"http://cp.hichina.com/\" target=\"_blank\">\u4e07\u7f51\u4e3b\u673a\u63a7\u5236\u9762\u677f</a>\u7ed1\u5b9a\u57df\u540d\uff0c\u963f\u91cc\u4e91\u8d26\u53f7\u8bf7\u767b\u5f55<a href=\"https://netcn.console.aliyun.com/core/host/list2\" target=\"_blank\">\u963f\u91cc\u4e91\u865a\u62df\u4e3b\u673a\u63a7\u5236\u53f0</a>\u7ed1\u5b9a\u3002</p>\n        <p class=\"error-page-title\">>>2\u3001\u60a8\u6b63\u5728\u4f7f\u7528IP\u8bbf\u95ee\uff1b</p>\n        <p class=\"error-page-txt\">\u89e3\u51b3\u65b9\u6cd5\uff1a\u8bf7\u5c1d\u8bd5\u4f7f\u7528\u57df\u540d\u8fdb\u884c\u8bbf\u95ee\u3002</p>\n        <p class=\"error-page-title\">>>3\u3001\u8be5\u7ad9\u70b9\u5df2\u88ab\u7f51\u7ad9\u7ba1\u7406\u5458\u505c\u6b62\uff1b</p>\n        <p class=\"error-page-txt\">\u89e3\u51b3\u65b9\u6cd5\uff1a\u9700\u8981\u7f51\u7ad9\u7ba1\u7406\u5458\u767b\u5f55<a href=\"http://cp.hichina.com/\" target=\"_blank\">\u4e07\u7f51\u4e3b\u673a\u63a7\u5236\u9762\u677f</a>\u5f00\u542f\u7ad9\u70b9\uff0c\u963f\u91cc\u4e91\u8d26\u53f7\u8bf7\u767b\u5f55<a href=\"https://netcn.console.aliyun.com/core/host/list2\" target=\"_blank\">\u963f\u91cc\u4e91\u865a\u62df\u4e3b\u673a\u63a7\u5236\u53f0</a>\u8fdb\u884c\u5f00\u901a\u3002</p>        \n    </div>\n</div>\n</body>\n</html> \n"
+            },
+            {
+              "Status": "404",
+              "Headers": {
+                "Server": "Apache",
+                "X-Powered-By": "PHP/5.2.17",
+                "X-UA-Compatible": "IE=EmulateIE7",
+                "Keep-Alive": "timeout=15, max=299",
+                "Transfer-Encoding": "chunked",
+                "Content-Type": "text/html"
+              },
+              "Body": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<title>\u7f51\u7ad9\u8bbf\u95ee\u62a5\u9519</title>\n<style type=\"text/css\">\n* { padding:0; margin:0;}\nli { list-style:none;}\nimg { border:none;}\n.clear { zoom:1;}\n.clear:after { content:'\u0010'; clear:both; display:block;}\n\n.error-page { width:940px; margin:0 auto; padding-top:110px;}\n.error-page-left { width:440px; float:left; background:url(images/404-pic.gif) no-repeat 22px 0; height:478px;}\n.error-page-right { width:500px; float:left;}\n.error-page-right h3 { line-height:114px; font-size:22px; color:#333; font-weight:600; padding-top:10px;}\n.error-page-title { line-height:24px; font-size:14px; color:#333;}\n.error-page-title a { color:#0066cc; text-decoration:underline;}\n.error-page-txt { line-height:24px; padding-left:40px; font-size:14px; color:#333; padding-bottom:9px;}\n.error-page-txt a { color:#0066cc; text-decoration:underline;}\n</style>\n</head>\n\n<body>\n<div class=\"error-page\">\n\t<div class=\"error-page-left\">&nbsp;</div>\n    <div class=\"error-page-right\">\n    \t<h3>\u62b1\u6b49\uff01\u8be5\u7f51\u7ad9\u53ef\u80fd\u7531\u4e8e\u4ee5\u4e0b\u539f\u56e0\u65e0\u6cd5\u8bbf\u95ee\uff01</h3>\n    \t<p class=\"error-page-title\">>>1\u3001\u60a8\u8bbf\u95ee\u7684\u57df\u540d\u672a\u7ed1\u5b9a\u81f3\u4e3b\u673a\uff1b</p>\n        <p class=\"error-page-txt\">\u89e3\u51b3\u65b9\u6cd5\uff1a\u9700\u8981\u7f51\u7ad9\u7ba1\u7406\u5458\u767b\u5f55<a href=\"http://cp.hichina.com/\" target=\"_blank\">\u4e07\u7f51\u4e3b\u673a\u63a7\u5236\u9762\u677f</a>\u7ed1\u5b9a\u57df\u540d\uff0c\u963f\u91cc\u4e91\u8d26\u53f7\u8bf7\u767b\u5f55<a href=\"https://netcn.console.aliyun.com/core/host/list2\" target=\"_blank\">\u963f\u91cc\u4e91\u865a\u62df\u4e3b\u673a\u63a7\u5236\u53f0</a>\u7ed1\u5b9a\u3002</p>\n        <p class=\"error-page-title\">>>2\u3001\u60a8\u6b63\u5728\u4f7f\u7528IP\u8bbf\u95ee\uff1b</p>\n        <p class=\"error-page-txt\">\u89e3\u51b3\u65b9\u6cd5\uff1a\u8bf7\u5c1d\u8bd5\u4f7f\u7528\u57df\u540d\u8fdb\u884c\u8bbf\u95ee\u3002</p>\n        <p class=\"error-page-title\">>>3\u3001\u8be5\u7ad9\u70b9\u5df2\u88ab\u7f51\u7ad9\u7ba1\u7406\u5458\u505c\u6b62\uff1b</p>\n        <p class=\"error-page-txt\">\u89e3\u51b3\u65b9\u6cd5\uff1a\u9700\u8981\u7f51\u7ad9\u7ba1\u7406\u5458\u767b\u5f55<a href=\"http://cp.hichina.com/\" target=\"_blank\">\u4e07\u7f51\u4e3b\u673a\u63a7\u5236\u9762\u677f</a>\u5f00\u542f\u7ad9\u70b9\uff0c\u963f\u91cc\u4e91\u8d26\u53f7\u8bf7\u767b\u5f55<a href=\"https://netcn.console.aliyun.com/core/host/list2\" target=\"_blank\">\u963f\u91cc\u4e91\u865a\u62df\u4e3b\u673a\u63a7\u5236\u53f0</a>\u8fdb\u884c\u5f00\u901a\u3002</p>        \n    </div>\n</div>\n</body>\n</html> \n"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "URI": "/manual/en/index.html",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "pragma": "no-cache",
+                  "cache-control": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5~dev1)",
+                  "accept": "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*",
+                  "accept-language": "en",
+                  "accept-charset": "iso-8859-1,*,utf-8"
+                },
+                "Body": {},
+                "Responses": [
+                  0
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "404",
+              "Headers": {
+                "Server": "Apache",
+                "Keep-Alive": "timeout=15, max=300",
+                "Content-Type": "text/html; charset=iso-8859-1"
+              },
+              "Body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL /manual/en/index.html was not found on this server.</p>\n</body></html>\n"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

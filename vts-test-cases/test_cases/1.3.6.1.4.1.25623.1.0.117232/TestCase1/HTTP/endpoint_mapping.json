@@ -1,0 +1,125 @@
+{
+  "Endpoints": [
+    {
+      "URI": "/",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "cache-control": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5~dev1)",
+                  "accept": "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*",
+                  "accept-language": "en",
+                  "accept-charset": "iso-8859-1,*,utf-8"
+                },
+                "Body": {},
+                "Responses": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "ID": "GET2",
+                "URL_Parameters": "",
+                "Headers": {
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5)"
+                },
+                "Body": {},
+                "Responses": [
+                  1
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "200",
+              "Headers": {
+                "Server": "Apache",
+                "Last-Modified": "Fri, 01 Oct 2021 09:42:43 GMT",
+                "ETag": "\"1b0-5cd476287eac0\"",
+                "Accept-Ranges": "bytes",
+                "Vary": "Accept-Encoding",
+                "X-Powered-By": "PleskLin",
+                "Content-Type": "text/html"
+              },
+              "Body": "<!doctype html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <title>Web Server's Default Page</title>\n    <meta name=\"copyright\" content=\"Copyright 1999-2021. Plesk International GmbH. All rights reserved.\">\n    <script src=\"https://assets.plesk.com/static/default-website-content/public/default-server-index.js\"></script>\n</head>\n<body>\n    You see this page because there is no Web site at this address.\n</body>\n</html>\n"
+            },
+            {
+              "Status": "200",
+              "Headers": {
+                "Server": "Apache",
+                "Last-Modified": "Fri, 01 Oct 2021 09:42:43 GMT",
+                "ETag": "\"1b0-5cd476287eac0\"",
+                "Accept-Ranges": "bytes",
+                "Vary": "Accept-Encoding",
+                "X-Powered-By": "PleskLin",
+                "Keep-Alive": "timeout=5, max=100",
+                "Content-Type": "text/html"
+              },
+              "Body": "<!doctype html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <title>Web Server's Default Page</title>\n    <meta name=\"copyright\" content=\"Copyright 1999-2021. Plesk International GmbH. All rights reserved.\">\n    <script src=\"https://assets.plesk.com/static/default-website-content/public/default-server-index.js\"></script>\n</head>\n<body>\n    You see this page because there is no Web site at this address.\n</body>\n</html>\n"
+            },
+            {
+              "Status": "200",
+              "Headers": {
+                "Server": "Apache",
+                "Last-Modified": "Fri, 01 Oct 2021 09:42:43 GMT",
+                "ETag": "\"1b0-5cd476287eac0\"",
+                "Accept-Ranges": "bytes",
+                "Vary": "Accept-Encoding",
+                "X-Powered-By": "PleskLin",
+                "Keep-Alive": "timeout=5, max=99",
+                "Content-Type": "text/html"
+              },
+              "Body": "<!doctype html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <title>Web Server's Default Page</title>\n    <meta name=\"copyright\" content=\"Copyright 1999-2021. Plesk International GmbH. All rights reserved.\">\n    <script src=\"https://assets.plesk.com/static/default-website-content/public/default-server-index.js\"></script>\n</head>\n<body>\n    You see this page because there is no Web site at this address.\n</body>\n</html>\n"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "URI": "/manual/en/index.html",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "pragma": "no-cache",
+                  "cache-control": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5~dev1)",
+                  "accept": "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*",
+                  "accept-language": "en",
+                  "accept-charset": "iso-8859-1,*,utf-8"
+                },
+                "Body": {},
+                "Responses": [
+                  0
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "404",
+              "Headers": {
+                "Server": "Apache",
+                "Keep-Alive": "timeout=5, max=100",
+                "Content-Type": "text/html; charset=iso-8859-1"
+              },
+              "Body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache Server at 192.0.2.123 Port 80</address>\n</body></html>\n"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "Endpoints": [
+    {
+      "URI": "/",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "cache-control": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5~dev1)",
+                  "accept": "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*",
+                  "accept-language": "en",
+                  "accept-charset": "iso-8859-1,*,utf-8"
+                },
+                "Body": {},
+                "Responses": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "ID": "GET2",
+                "URL_Parameters": "",
+                "Headers": {
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5)"
+                },
+                "Body": {},
+                "Responses": [
+                  1
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "200",
+              "Headers": {
+                "Server": "Apache",
+                "Last-Modified": "Wed, 16 Sep 2020 20:36:20 GMT",
+                "ETag": "\"0\"",
+                "Accept-Ranges": "bytes",
+                "Content-Type": "text/html"
+              },
+              "Body": ""
+            },
+            {
+              "Status": "200",
+              "Headers": {
+                "Server": "Apache",
+                "Last-Modified": "Wed, 16 Sep 2020 20:36:20 GMT",
+                "ETag": "\"0\"",
+                "Accept-Ranges": "bytes",
+                "Keep-Alive": "timeout=1, max=100",
+                "Content-Type": "text/html"
+              },
+              "Body": ""
+            },
+            {
+              "Status": "200",
+              "Headers": {
+                "Server": "Apache",
+                "Last-Modified": "Wed, 16 Sep 2020 20:36:20 GMT",
+                "ETag": "\"0\"",
+                "Accept-Ranges": "bytes",
+                "Keep-Alive": "timeout=1, max=99",
+                "Content-Type": "text/html"
+              },
+              "Body": ""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "URI": "/manual/en/index.html",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "pragma": "no-cache",
+                  "cache-control": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5~dev1)",
+                  "accept": "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*",
+                  "accept-language": "en",
+                  "accept-charset": "iso-8859-1,*,utf-8"
+                },
+                "Body": {},
+                "Responses": [
+                  0
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "404",
+              "Headers": {
+                "Server": "Apache",
+                "Last-Modified": "Wed, 16 Sep 2020 20:36:20 GMT",
+                "ETag": "\"0\"",
+                "Accept-Ranges": "bytes",
+                "Keep-Alive": "timeout=1, max=100",
+                "Content-Type": "text/html"
+              },
+              "Body": ""
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

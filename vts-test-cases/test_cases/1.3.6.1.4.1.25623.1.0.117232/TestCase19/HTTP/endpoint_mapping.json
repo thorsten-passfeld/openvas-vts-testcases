@@ -1,0 +1,100 @@
+{
+  "Endpoints": [
+    {
+      "URI": "/",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "cache-control": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5~dev1)",
+                  "accept": "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*",
+                  "accept-language": "en",
+                  "accept-charset": "iso-8859-1,*,utf-8"
+                },
+                "Body": {},
+                "Responses": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "ID": "GET2",
+                "URL_Parameters": "",
+                "Headers": {
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5)"
+                },
+                "Body": {},
+                "Responses": [
+                  1
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "404",
+              "Headers": {
+                "Server": "Apache",
+                "Content-Type": "text/html; charset=UTF-8"
+              },
+              "Body": "<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor=\"white\">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx/1.0.15</center>\n</body>\n</html>\n"
+            },
+            {
+              "Status": "403",
+              "Headers": {
+                "Server": "Apache",
+                "Content-Type": "text/html; charset=iso-8859-1"
+              },
+              "Body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>403 Forbidden</title>\n</head><body>\n<h1>Forbidden</h1>\n<p>You don't have permission to access /\non this server.</p>\n</body></html>\n"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "URI": "/manual/en/index.html",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "pragma": "no-cache",
+                  "cache-control": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5~dev1)",
+                  "accept": "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*",
+                  "accept-language": "en",
+                  "accept-charset": "iso-8859-1,*,utf-8"
+                },
+                "Body": {},
+                "Responses": [
+                  0
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "404",
+              "Headers": {
+                "Server": "Apache",
+                "Status": "404 Not Found",
+                "Content-Type": "text/html; charset=UTF-8"
+              },
+              "Body": "<h1>Page not found</h1><p>Sorry, we cannot find that page.</p>"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

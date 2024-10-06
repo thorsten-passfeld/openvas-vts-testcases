@@ -1,0 +1,93 @@
+{
+  "Endpoints": [
+    {
+      "URI": "/",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "pragma": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5)"
+                },
+                "Body": {},
+                "Responses": [
+                  0
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "302",
+              "Headers": {
+                "TeamCity-Node-Id": "MAIN_SERVER",
+                "Set-Cookie": "TCSESSIONID=58098AE26647DCE17417AB858B1C1917; Path=/; HttpOnly",
+                "Location": "/login.html",
+                "Keep-Alive": "timeout=60"
+              },
+              "Body": ""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "URI": "/login.html",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "pragma": "no-cache",
+                  "cache-control": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5~dev1)",
+                  "accept": "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*",
+                  "accept-language": "en",
+                  "accept-charset": "iso-8859-1,*,utf-8"
+                },
+                "Body": {},
+                "Responses": [
+                  0
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "200",
+              "Headers": {
+                "TeamCity-Node-Id": "MAIN_SERVER",
+                "Cache-Control": "no-store",
+                "Set-Cookie": [
+                  "TCSESSIONID=A4DA8179F81D31E0764FEEC1AECDED17; Path=/; HttpOnly",
+                  "__test=1; Max-Age=31536000; Expires=Fri, 07-Jul-2023 19:23:55 GMT; Path=/"
+                ],
+                "Content-Security-Policy": "frame-ancestors 'self' http://tc.dev.altispartners.net/;default-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval';style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;connect-src 'self' ws: wss:;img-src 'self' data: http://127.0.0.1:63330 http://127.0.0.1:63331 http://127.0.0.1:63332 http://127.0.0.1:63333 http://127.0.0.1:63334 http://127.0.0.1:63335 http://127.0.0.1:63336 http://127.0.0.1:63337 http://127.0.0.1:63338 http://127.0.0.1:63339;font-src 'self' data: https://fonts.gstatic.com;frame-src 'self' http://tc.dev.altispartners.net/",
+                "X-Frame-Options": "sameorigin",
+                "Strict-Transport-Security": "max-age=31536000;",
+                "X-Content-Type-Options": "nosniff",
+                "X-XSS-Protection": "1; mode=block",
+                "Referrer-Policy": "origin-when-cross-origin",
+                "mixed-content": "noupgrade",
+                "Content-Type": "text/html;charset=UTF-8",
+                "Content-Language": "en",
+                "Transfer-Encoding": "chunked",
+                "Keep-Alive": "timeout=60"
+              },
+              "Body": "\r\n\r\n  \r\n  \r\n    <!DOCTYPE html>\r\n    <html lang=\"en\">\r\n    \r\n    <head>\r\n      <title>Log in to TeamCity &mdash; TeamCity</title>\r\n      \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n      \r\n<link rel=\"Shortcut Icon\" href=\"/favicon.ico?v10\" type=\"image/x-icon\" sizes=\"16x16 32x32\"/>\r\n<meta charset=\"UTF-8\">\r\n\r\n<meta name=\"format-detection\" content=\"telephone=no\"/>\r\n\r\n<meta name=\"application-name\" content=\"TeamCity (Log in to TeamCity &amp;mdash; TeamCity)\"/>\r\n<meta name=\"description\" content=\"Powerful Continuous Integration and Build Server\"/>\r\n<meta name=\"viewport\" content=\"width=1000\"/>\r\n\r\n<link rel=\"apple-touch-icon\" sizes=\"57x57\" href=\"/img/icons/apple-touch-icon-57x57.png\"/>\r\n<link rel=\"apple-touch-icon\" sizes=\"60x60\" href=\"/img/icons/apple-touch-icon-60x60.png\"/>\r\n<link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"/img/icons/apple-touch-icon-72x72.png\"/>\r\n<link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"/img/icons/apple-touch-icon-76x76.png\"/>\r\n<link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"/img/icons/apple-touch-icon-114x114.png\"/>\r\n<link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"/img/icons/apple-touch-icon-120x120.png\"/>\r\n<link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"/img/icons/apple-touch-icon-144x144.png\"/>\r\n<link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"/img/icons/apple-touch-icon-152x152.png\"/>\r\n<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/img/icons/apple-touch-icon-180x180.png\"/>\r\n\r\n<link rel=\"mask-icon\" href=\"/img/icons/teamcity.black.svg?v2\" color=\"black\"/>\r\n\r\n<meta name=\"msapplication-TileColor\" content=\"#000000\"/>\r\n\r\n<meta name=\"msapplication-TileImage\" content=\"/img/icons/mstile-144x144.png\"/>\r\n<meta name=\"msapplication-square70x70logo\" content=\"/img/icons/mstile-70x70.png\"/>\r\n<meta name=\"msapplication-square150x150logo\" content=\"/img/icons/mstile-150x150.png\"/>\r\n<meta name=\"msapplication-wide310x150logo\" content=\"/img/icons/mstile-310x150.png\"/>\r\n<meta name=\"msapplication-square310x310logo\" content=\"/img/icons/mstile-310x310.png\"/>\r\n<meta name=\"tc-csrf-token\" content=\"9fd76008-598b-4e29-a34d-75711b7d0659\"/>\r\n\r\n\r\n      \r\n\r\n\r\n<style id=\"181c19d21c9\" type=\"text/css\">\r\n    @import \"/res/6114880409683721742.css?v=1656810395260\";\r\n  \r\n</style>\r\n\r\n\r\n      \r\n\r\n\r\n<script type=\"text/javascript\" src=\"/res/-3603535750726916660.js?v=1656810395260\"></script>\r\n\r\n\r\n      <script type=\"text/javascript\">\r\n  var base_uri=window.location.protocol+\"//\"+window.location.host+\"\";\r\n</script>\r\n\r\n\r\n      \r\n\r\n\r\n\r\n<script type=\"text/javascript\" src=\"/res/-6060474511570324796.js?v=1656810395260\"></script>\r\n\r\n\r\n      \r\n\r\n\r\n\r\n\r\n<style id=\"181c19d21ca\" type=\"text/css\">\r\n    @import \"/res/2319721761153202242.css?v=1656810395260\";\r\n  \r\n</style>\r\n\r\n\r\n\r\n\r\n\r\n<script type=\"text/javascript\" src=\"/res/4488130756086943102.js?v=1656810395260\"></script>\r\n\r\n\r\n<script type=\"text/javascript\">\r\n  window.$j = jQuery.noConflict();\r\n</script>\r\n\r\n\r\n\r\n\r\n<script type=\"text/javascript\" src=\"/res/-8412685822331823636.js?v=1656810395260\"></script>\r\n\r\n\r\n      \r\n\r\n\r\n\r\n<script type=\"text/javascript\" src=\"/res/-4735258447288317237.js?v=1656810395260\"></script>\r\n\r\n      \r\n\r\n\r\n\r\n<script type=\"text/javascript\" src=\"/res/-1525828657932914744.js?v=1656810395260\"></script>\r\n\r\n\r\n      \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<script type=\"text/javascript\">\r\n  var internalProps = [];\r\n\r\n  internalProps['teamcity.ui.experimental'] = 'disableDefault';\r\n  internalProps['teamcity.ui.useServiceWorker'] =  false;\r\n\r\n  internalProps['teamcity.ui.websocket.connectTimeout'] =  3000;\r\n  internalProps['teamcity.ui.webSocket.logToConsole'] =  false;\r\n\r\n  internalProps['teamcity.ui.pollInterval'] = 6;\r\n  internalProps['teamcity.ui.serverAvailability.pollInterval'] = 3;\r\n\r\n  internalProps['teamcity.ui.events.pollInterval'] = 6;\r\n  internalProps['teamcity.ui.systemProblems.pollInterval'] = 40;\r\n  internalProps['teamcity.ui.problemsSummary.pollInterval'] = 8;\r\n  internalProps['teamcity.ui.buildQueueEstimates.pollInterval'] = 10;\r\n\r\n  // Doesn't use BS.SubscriptionManager and standard subscription mechanism\r\n  internalProps['teamcity.ui.cleanupNotificatorProgress.pollInterval'] = 6;\r\n\r\n  internalProps['teamcity.ui.codeMirrorEditor.enabled'] = true;\r\n  internalProps['teamcity.ui.customConfirm'] = false;\r\n  internalProps['teamcity.ui.restBreadcrumbs.popupInMainLink.enabled'] = false;\r\n\r\n  internalProps['teamcity.ui.serverRestart.warningDelay'] = 120;\r\n  internalProps['teamcity.ui.serverUpdate.warningDelay'] = 120;\r\n\r\n  internalProps['teamcity.ui.editSettings.showResolveValueIcon'] = false;\r\n\r\n  internalProps['teamcity.ui.changesPage.singleExpandedNodeOnly'] = true;\r\n\r\n  internalProps['teamcity.ui.rest.base'] = '/app/rest/ui';\r\n\r\n  internalProps['teamcity.internal.buildChangesPopupLimit'] = '100';\r\n\r\n  internalProps['teamcity.development.mode'] = false;\r\n\r\n  internalProps['teamcity.ui.showLicenseAgreementToAllUsers'] = true;\r\n\r\n  internalProps['teamcity.ui.precheckCSRF.enabled'] = true;\r\n\r\n  internalProps['teamcity.ui.sakuraHeader'] = false;\r\n\r\n  internalProps['teamcity.ui.showNoCompatibleAgentsPopup'] = true;\r\n\r\n  internalProps['teamcity.ui.newTestHistoryPage'] = true;\r\n\r\n  internalProps['teamcity.ui.sakuraQueuePage.enabled'] = true;\r\n\r\n  internalProps['teamcity.ui.buildlog.search.enabled'] = true;\r\n\r\n  internalProps['teamcity.ui.customWelcomeTitle'] = '';\r\n\r\n  try {\r\n    internalProps['teamcity.ui.tabs.linkToMainUI.build'] = '';\r\n    internalProps['teamcity.ui.tabs.linkToMainUI.buildType'] = '';\r\n    internalProps['teamcity.ui.tabs.linkToMainUI.project'] = '';\r\n  } catch (error) {\r\n    console.log('Iframe Adapter blacklist properties have not been correctly specified');\r\n  }\r\n\r\n</script>\r\n\r\n\r\n      \r\n\r\n\r\n<script type=\"text/javascript\" src=\"/res/-4634852899786694785.js?v=1656810395260\"></script>\r\n\r\n\r\n      \r\n\r\n\r\n\r\n<script type=\"text/javascript\" src=\"/res/2083999511917917652.js?v=1656810395260\"></script>\r\n\r\n\r\n      \r\n\r\n\r\n\r\n<style id=\"181c19d21cb\" type=\"text/css\">\r\n    @import \"/res/-3342039278521329535.css?v=1656810395260\";\r\n  \r\n</style>\r\n<link href=\"/js/ring/styles.708b1ec508b1bf8a1ce0.css\" rel=\"stylesheet\">\r\n<script src=\"/js/ring/styles.78b516c453ddc6548b5f.js\"></script>\r\n<script src=\"/js/ring/vendors~bundle.f580d70729636d847027.js\"></script>\r\n<script src=\"/js/ring/bundle.99e0884991d58eaa21d0.js\"></script>\r\n\r\n\r\n\r\n      \r\n\r\n\r\n<style id=\"181c19d21cc\" type=\"text/css\">\r\n    @import \"/res/-1503540342333606626.css?v=1656810395260\";\r\n  \r\n</style>\r\n\r\n    \r\n\r\n\r\n\r\n\r\n    \r\n\r\n\r\n<script type=\"text/javascript\" src=\"/res/-419506198816766862.js?v=1656810395260\"></script>\r\n\r\n    <script type=\"text/javascript\">\r\n      $j(document).ready(function($) {\r\n        var loginForm = $('.loginForm');\r\n\r\n        $(\"#username\").focus();\r\n\r\n        loginForm.attr('action', '/loginSubmit.html');\r\n        loginForm.submit(function() {\r\n          return BS.LoginForm.submitLogin();\r\n        });\r\n\r\n        if (BS.Cookie.get(\"__test\") != \"1\") {\r\n          $(\"#noCookiesEnabledMessage\").show();\r\n        }\r\n\r\n        if ($('#fading').length > 0) {\r\n          BS.Highlight('fading');\r\n        }\r\n      });\r\n    </script>\r\n\r\n    </head>\r\n\r\n    <body>\r\n    \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    \r\n\r\n\r\n\r\n\r\n<div id=\"loginPage\" class=\"initialPage\">\r\n  <div class=\"page-content-wrapper\">\r\n    <div id=\"pageContent\">\r\n      <span class=\"logo\" title=\"TeamCity\"></span>\r\n      <h1 id=\"header\">Log in to TeamCity</h1>\r\n\r\n      \r\n      \r\n\r\n      <div id=\"loginIcons\"></div>\r\n\r\n      <div id=\"errorMessage\" ></div>\r\n\r\n      \r\n\r\n      \r\n\r\n      <form class=\"loginForm\" method=\"post\">\r\n        \r\n          <div>\r\n            <label for=\"username\">Username</label>\r\n            <input class=\"text\" id=\"username\" type=\"text\" name=\"username\">\r\n          </div>\r\n        \r\n\r\n        <div>\r\n          <label for=\"password\">Password</label>\r\n          <input class=\"text\" id=\"password\" type=\"password\" name=\"password\">\r\n        </div>\r\n\r\n\r\n        <div class=\"remember-section\">\r\n        <div  class=\"remember-section__inner\">\r\n  \r\n  \r\n    <input type=\"checkbox\" \r\n           name=\"remember\"\r\n           id=\"remember\"\r\n           class=\"checkbox\"\r\n           \r\n           \r\n           \r\n           \r\n           \r\n           checked\r\n           \r\n           value=\"true\">\r\n    <input type=\"hidden\" name=\"_remember\" value=\"\">\r\n  \r\n\r\n\r\n          <label class=\"rememberMe\" for=\"remember\">Remember me</label></div>\r\n\r\n        \r\n        </div>\r\n\r\n        <noscript>\r\n          <div class=\"noJavaScriptEnabledMessage\">\r\n            Please enable JavaScript in your browser to proceed with the login.\r\n          </div>\r\n        </noscript>\r\n\r\n        <div id=\"noCookiesEnabledMessage\" class=\"noCookiesEnabledMessage\" style=\"display: none;\">\r\n          Please enable cookies in your browser to proceed with the login.\r\n        </div>\r\n\r\n        <div class=\"buttons\">\r\n          <input class=\"btn loginButton\" type=\"submit\" name=\"submitLogin\" value=\"Log in\">\r\n          <div class=\"loader-cell\"><i id=\"saving\" style=\"display: none; \" class=\"ring-loader-inline progressRing progressRingSubmitBlock\" title=\"Please wait...\"></i></div>\r\n        </div>\r\n\r\n        <input type=\"hidden\" id=\"publicKey\" name=\"publicKey\" value=\"00bbaf856b68439bd94fa7d888ccf8040d8555d7a954de40e5efe215f5a86a794bd57bc47d41701d18171666b26f51e642ec15cd20efae7f9d9c1bf45041ed3b93d7d595f43defd99c98ecff79a64e21f76dbbe9ad594da59f5c3209b11b871880d9c037801edbcb2fd77633b0adebda70e4df91abffc67f6dc615d8dc7cc41cb9\"/>\r\n        \r\n      </form>\r\n\r\n      \r\n        \r\n\r\n        \r\n\r\n\r\n\r\n\r\n      \r\n    \r\n\r\n      <div class=\"version\"><span class=\"greyNote version\"><span class=\"vWord\">Version</span> 2020.2.2 (build 85899)</span></div>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n    </body>\r\n    </html>\r\n  \r\n\r\n\r\n"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

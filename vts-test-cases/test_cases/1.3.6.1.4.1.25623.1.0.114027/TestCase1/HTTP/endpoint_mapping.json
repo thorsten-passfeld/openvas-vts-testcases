@@ -1,0 +1,128 @@
+{
+  "Endpoints": [
+    {
+      "URI": "/",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "pragma": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5)"
+                },
+                "Body": {},
+                "Responses": [
+                  0
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "200",
+              "Headers": {
+                "Server": "Apache/2.4.25 (Unix) OpenSSL/1.0.2k",
+                "Last-Modified": "Fri, 29 Sep 2017 14:11:09 GMT",
+                "Accept-Ranges": "bytes",
+                "Cache-Control": "max-age=0, no-cache, no-store, must-revalidate",
+                "Pragma": "no-cache",
+                "Keep-Alive": "timeout=5, max=100",
+                "Content-Type": "text/html"
+              },
+              "Body": "<!DOCTYPE html><html><head><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta charset=\"utf-8\"><meta name=\"author\" content=\"Axis Communications AB\"><meta name=\"apple-mobile-web-app-capable\" content=\"yes\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no\"><title>AXIS</title><link rel=\"shortcut icon\" href=\"img/favicon.ico\"></head><body><noscript><span class=\"noscript-content\">JavaScript is disabled or not supported by the browser. To use the Axis web application, enable JavaScript.</span></noscript><div class=\"page-wrap waiting\" id=\"pageWrap\"></div><script src=\"js/modernizr.js?1.18.24.20\"></script><script src=\"js/bootstrap.js?1.18.24.20\"></script></body></html>"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "URI": "/axis-cgi/prod_brand_info/getbrand.cgi",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "pragma": "no-cache",
+                  "cache-control": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5~dev1)",
+                  "accept": "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*",
+                  "accept-language": "en",
+                  "accept-charset": "iso-8859-1,*,utf-8"
+                },
+                "Body": {},
+                "Responses": [
+                  0
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "200",
+              "Headers": {
+                "Server": "Apache/2.4.25 (Unix) OpenSSL/1.0.2k",
+                "Keep-Alive": "timeout=5, max=100",
+                "Transfer-Encoding": "chunked",
+                "Content-Type": "application/json"
+              },
+              "Body": "{\n  \"Brand\": {\n    \"Brand\": \"AXIS\",\n    \"ProdFullName\": \"AXIS M3044-V Network Camera\",\n    \"ProdShortName\": \"AXIS M3044-V\",\n    \"ProdNbr\": \"M3044-V\",\n    \"ProdType\": \"Network Camera\"\n  }\n}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "URI": "/js/bootstrap.js",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "pragma": "no-cache",
+                  "cache-control": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5)",
+                  "accept": "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*",
+                  "accept-language": "en",
+                  "accept-charset": "iso-8859-1,*,utf-8",
+                  "accept-encoding": "gzip, deflate"
+                },
+                "Body": {},
+                "Responses": [
+                  0
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "200",
+              "Headers": {
+                "Server": "Apache/2.4.25 (Unix) OpenSSL/1.0.2k",
+                "Vary": "Accept-encoding",
+                "Last-Modified": "Fri, 29 Sep 2017 14:11:18 GMT",
+                "ETag": "\"6c9-55a549939ad80\"",
+                "Accept-Ranges": "bytes",
+                "Content-Encoding": "gzip",
+                "Keep-Alive": "timeout=5, max=99",
+                "Content-Type": "text/javascript"
+              },
+              "Body": "var vendorLib=function(e){function t(n){if(o[n])return o[n].exports;var r=o[n]={i:n,l:!1,exports:{}};return e[n].call(r.exports,r,r.exports,t),r.l=!0,r.exports}var o={};return t.m=e,t.c=o,t.i=function(e){return e},t.d=function(e,o,n){t.o(e,o)||Object.defineProperty(e,o,{configurable:!1,enumerable:!0,get:n})},t.n=function(e){var o=e&&e.__esModule?function(){return e.default}:function(){return e};return t.d(o,\"a\",o),o},t.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},t.p=\"/\",t(t.s=756)}({105:function(e,t,o){\"use strict\";Object.defineProperty(t,\"__esModule\",{value:!0}),t.UNAUTHORIZED_PAGE=t.VENDOR_FILE=t.NOTSUPPORTED_PAGE=t.MAIN_FILE=void 0;var n=o(93),r=\"js/main.js?ver=\"+n.version,i=\"js/vendor.js?ver=\"+n.version;t.MAIN_FILE=r,t.NOTSUPPORTED_PAGE=\"/notSupported.html\",t.VENDOR_FILE=i,t.UNAUTHORIZED_PAGE=\"unauthorized.html\"},126:function(e,t,o){\"use strict\";Object.defineProperty(t,\"__esModule\",{value:!0});var n=o(24),r=o(93),i=[\"lightTheme\",\"darkTheme\"],a=i[0],u={DEFAULT_THEME:a,_themeLocalStorage:(0,n.getLocalStorageValue)(\"cssTheme\"),_isLoadingTheme:!1,_createLinkTag:function(){var e=document.createElement(\"link\");return e.rel=\"stylesheet\",e},_injectTheme:function(e){var t=this,o=document.getElementById(\"theme\"),n=this._createLinkTag();this._isLoadingTheme=!0,n.onload=function(){t._isLoadingTheme=!1,n.id=\"theme\",o&&document.head.removeChild(o)},n.onerror=function(){t._isLoadingTheme=!1},n.href=\"css/\"+e+\".css?ver=\"+r.version,o?document.head.insertBefore(n,o):document.head.appendChild(n)},_applyTheme:function(e){this._isLoadingTheme||e&&e===this._themeLocalStorage&&document.getElementById(\"theme\")||(i.indexOf(e)<0&&(e=a),this._injectTheme(e),this._themeLocalStorage!==e&&((0,n.setLocalStorageValue)(\"cssTheme\",e),this._themeLocalStorage=e))},initialize:function(){this._applyTheme((0,n.getLocalStorageValue)(\"cssTheme\"))},switchTheme:function(){this._applyTheme(i[this._themeLocalStorage===i[0]?1:0])},resetTheme:function(){this._themeLocalStorage!==a&&this._applyTheme(a)}};t.default=u},24:function(e,t,o){\"use strict\";Object.defineProperty(t,\"__esModule\",{value:!0}),t.setLocalStorageValue=t.getLocalStorageValue=void 0;var n=o(77),r=function(e){return e&&e.__esModule?e:{default:e}}(n),i=o(33),a=function(e){return i.hasLocalStorageSupport?window.localStorage.getItem(e):r.default[e]},u=function(e,t){i.hasLocalStorageSupport&&window.localStorage.setItem(e,t)};t.getLocalStorageValue=a,t.setLocalStorageValue=u},33:function(e,t,o){\"use strict\";Object.defineProperty(t,\"__esModule\",{value:!0});var n=function(){return{flexbox:Modernizr.flexbox,flexboxlegacy:Modernizr.flexboxlegacy,flexboxtweener:Modernizr.flexboxtweener,flexwrap:Modernizr.flexwrap}},r=function(){return Modernizr.inputtypes.range},i=function(){return Modernizr.json},a=function(){return Modernizr.mediaqueries},u=function(){return{inlinesvg:Modernizr.inlinesvg,smil:Modernizr.smil,embedObject:Modernizr.svg,svgasimg:Modernizr.svgasimg,svgclippaths:Modernizr.svgclippaths,svgfilterssvgfilters:Modernizr.svgfilters,svgforeignobject:Modernizr.svgforeignobject}},l=function(){return Modernizr.videosupport},s=function(){var e=!1;return Modernizr.audio&&(e={m4a:Boolean(Modernizr.audio.m4a),mp3:Boolean(Modernizr.audio.mp3),ogg:Boolean(Modernizr.audio.ogg),opus:Boolean(Modernizr.audio.opus),wav:Boolean(Modernizr.audio.wav)}),e}(),c=n(),d=function(){return Modernizr.fullscreen}(),f=function(){var e=n(),t=e.flexbox||e.flexboxlegacy||e.flexboxtweener,o=l(),s=o.H264||o.MJPEG,c=u(),d=c.inlinesvg||c.embedObject||c.svgasimg;return!!(t&&r()&&i()&&a()&&d&&s)}(),g=function(){return Modernizr.downloadsupport}(),h=function(){return Modernizr.localstorage}(),m=r(),p=function(){return Modernizr.mobilecheck}().any,v=i(),_=a(),M=u(),L=l();t.audio=s,t.flex=c,t.fullscreen=d,t.hasAllNeededFeatures=f,t.hasDownloadSupport=g,t.hasLocalStorageSupport=h,t.inputRange=m,t.isMobile=p,t.json=v,t.mediaQueries=_,t.svg=M,t.videoSupport=L},756:function(e,t,o){\"use strict\";function n(e,t){if(!(t<0||t>=e.length)){var o=e[t],r=document.createElement(\"script\");r.setAttribute(\"src\",o),r.onload=function(){n(e,t+1)},document.head.appendChild(r)}}var r=o(33),i=o(126),a=function(e){return e&&e.__esModule?e:{default:e}}(i),u=o(105),l=[u.VENDOR_FILE,u.MAIN_FILE];r.hasAllNeededFeatures?function(){a.default.initialize(),n(l,0)}():function(){document.location.href=u.NOTSUPPORTED_PAGE}()},77:function(e,t,o){\"use strict\";Object.defineProperty(t,\"__esModule\",{value:!0}),t.default={adaptiveResolution:\"on\",cssTheme:\"lightTheme\",debug:\"off\",experimental:\"off\",i18next:\"en\",fakeLanguage:\"off\",logMetadata:\"off\",ptzButtonActive:\"false\"}},93:function(e,t){e.exports={tagged:!0,version:\"1.18.24.20\"}}});"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

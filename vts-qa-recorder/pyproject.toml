@@ -1,0 +1,76 @@
+[tool.poetry]
+name = "VTs QA Recorder"
+version = "0.1.0"
+description = "A recorder to listen in on VTs."
+authors = ["Thorsten Paßfeld <thorsten.passfeld@greenbone.net>"]
+license = "AGPL-3.0-or-later"
+readme = "README.md"
+
+classifiers=[
+  # Full list: https://pypi.org/pypi?%3Aaction=list_classifiers
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",  # pylint: disable=line-too-long
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+packages = [
+  { include = "vts-recording"},
+  { include = "poetry.lock", format = "sdist" },
+  { include = "poetry.toml", format = "sdist" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pylint = "^2.13.8"
+paramiko = "^2.11.0"
+dpkt = "^1.9.7"
+docker = "^5.0.3"
+ncompress = "^1.0.0"
+Brotli = "^1.0.9"
+
+[tool.poetry.dev-dependencies]
+pontos = "^22.4.0"
+pylint = "^2.13.5"
+black = "^22.3"
+autohooks = "^21.7.0"
+autohooks-plugin-black = "^21.12.0"
+autohooks-plugin-pylint = "^21.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+target-version = ['py37', 'py38', 'py39']
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.venv
+  | \.circleci
+  | \.github
+  | \.vscode
+  | _build
+  | build
+  | dist
+  | docs
+)/
+'''
+
+[tool.autohooks]
+mode = "poetry"
+pre-commit = ['autohooks.plugins.black', 'autohooks.plugins.pylint']
+
+[tool.pontos.version]
+version-module-file = "vts-recording/__version__.py"
+
+[tool.poetry.scripts]
+recorder = 'vts-recording.recorder:main'
+recorder-wrapper = 'vts-recording.recorder_wrapper:main'

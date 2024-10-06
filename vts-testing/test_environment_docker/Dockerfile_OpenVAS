@@ -1,0 +1,5 @@
+FROM greenbone/openvas-scanner:latest
+
+# Configure OpenVAS so that this type of scanning is possible
+RUN echo "unscanned_closed = no" >> /etc/openvas/openvas.conf
+RUN echo "plugins_folder = /openvas_plugins" >> /etc/openvas/openvas.conf

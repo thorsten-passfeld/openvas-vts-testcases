@@ -1,0 +1,12 @@
+{
+  "RecordedHost": "192.0.2.123",
+  "RecordedPorts": {
+    "HTTP": 80
+  },
+  "RecordedPlugins": [
+    "1.3.6.1.4.1.25623.1.0.114095",
+    "1.3.6.1.4.1.25623.1.0.114096"
+  ],
+  "KbArgs": "--kb=\"Ports/tcp/80=1\"",
+  "Result": "Detected Zavio IP CameraVersion:       unknownLocation:      /CPE:           cpe:/h:zavio:ip_camera_b8520Concluded from version/product identification location:http:///profileExtra information:Detected model: B8520It was possible to login with the following default credentials: (username:password)admin:admin"
+}

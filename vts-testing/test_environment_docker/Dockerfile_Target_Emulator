@@ -1,0 +1,8 @@
+FROM python:3.9.13-alpine
+
+RUN apk add --update --no-cache bash py3-pip && rm -rf /tmp/* /var/cache/apk/*
+
+COPY scan-target-emulator/requirements.txt /requirements.txt
+RUN pip install --no-cache-dir -r /requirements.txt
+
+WORKDIR /code

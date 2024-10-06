@@ -1,0 +1,3 @@
+[submodule "scan-target-emulator"]
+	path = test_environment_docker/scan-target-emulator
+	url = https://git@github.com/thorsten-passfeld/scan-target-emulator

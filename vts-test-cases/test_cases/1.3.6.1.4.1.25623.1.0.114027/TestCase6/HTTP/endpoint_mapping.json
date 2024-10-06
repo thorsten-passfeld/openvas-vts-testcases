@@ -1,0 +1,123 @@
+{
+  "Endpoints": [
+    {
+      "URI": "/",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "pragma": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5)"
+                },
+                "Body": {},
+                "Responses": [
+                  0
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "200",
+              "Headers": {
+                "Server": "Apache/2.4.39 (Unix) OpenSSL/1.1.1c",
+                "Last-Modified": "Fri, 06 Sep 2019 09:35:31 GMT",
+                "Accept-Ranges": "bytes",
+                "Cache-Control": "max-age=0, no-cache, no-store, must-revalidate",
+                "Pragma": "no-cache",
+                "Keep-Alive": "timeout=5, max=100",
+                "Content-Type": "text/html"
+              },
+              "Body": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta http-equiv='X-UA-Compatible' content='IE=edge'>\n    <meta charset='utf-8'>\n    <meta name='author' content='Axis Communications AB'>\n    <meta name='apple-mobile-web-app-capable' content='yes'>\n    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no'>\n\n    <title>AXIS</title>\n\n    <link rel='shortcut icon' href='img/favicon.ico'>\n  <link href=\"css/main.css\" rel=\"stylesheet\"></head>\n  <body>\n    <noscript>\n      <span class='noscript-content'>\n        JavaScript is disabled or not supported by the browser. To use the Axis web application, enable JavaScript.\n      </span>\n    </noscript>\n    <div class='page-wrap waiting' id='pageWrap'></div>\n    <script type='text/javascript'>\n      // Redirects unsupported browsers to notSupported.html\n      if (!(window.CSS &&\n            CSS.supports('color', 'var(--primary)') &&\n            CSS.supports('width', 'calc(calc(1px + 1px) * 2)'))) {\n        document.location.href = 'notSupported.html';\n      }\n    </script>\n  <script src=\"vendors~iframePopup~main~ptzGatekeeper.19ce4db2fce531e05768.bundle.js\"></script><script src=\"vendors~main.19ce4db2fce531e05768.bundle.js\"></script><script src=\"main.19ce4db2fce531e05768.bundle.js\"></script></body>\n</html>\n"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "URI": "/axis-cgi/prod_brand_info/getbrand.cgi",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "pragma": "no-cache",
+                  "cache-control": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5~dev1)",
+                  "accept": "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*",
+                  "accept-language": "en",
+                  "accept-charset": "iso-8859-1,*,utf-8"
+                },
+                "Body": {},
+                "Responses": [
+                  0
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "200",
+              "Headers": {
+                "Server": "Apache/2.4.39 (Unix) OpenSSL/1.1.1c",
+                "Keep-Alive": "timeout=5, max=100",
+                "Transfer-Encoding": "chunked",
+                "Content-Type": "application/json"
+              },
+              "Body": "{\n  \"Brand\": {\n    \"Brand\": \"AXIS\",\n    \"ProdType\": \"Network Camera\",\n    \"ProdShortName\": \"AXIS Q3515\",\n    \"ProdNbr\": \"Q3515\",\n    \"ProdFullName\": \"AXIS Q3515 Network Camera\"\n  }\n}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "URI": "/js/bootstrap.js",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "pragma": "no-cache",
+                  "cache-control": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5)",
+                  "accept": "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*",
+                  "accept-language": "en",
+                  "accept-charset": "iso-8859-1,*,utf-8",
+                  "accept-encoding": "gzip, deflate"
+                },
+                "Body": {},
+                "Responses": [
+                  0
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "404",
+              "Headers": {
+                "Server": "Apache/2.4.39 (Unix) OpenSSL/1.1.1c",
+                "Keep-Alive": "timeout=5, max=99",
+                "Content-Type": "text/html; charset=iso-8859-1"
+              },
+              "Body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL /js/bootstrap.js was not found on this server.</p>\n</body></html>\n"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

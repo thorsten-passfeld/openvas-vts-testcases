@@ -1,0 +1,43 @@
+{
+  "Endpoints": [
+    {
+      "URI": "/",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "pragma": "no-cache",
+                  "cache-control": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5~dev1)",
+                  "accept": "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*",
+                  "accept-language": "en",
+                  "accept-charset": "iso-8859-1,*,utf-8"
+                },
+                "Body": {},
+                "Responses": [
+                  0
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "302",
+              "Headers": {
+                "Server": "Apache/2.4.41 (Ubuntu)",
+                "Location": "https://ievonline.pucpr.edu",
+                "Content-Type": "text/html; charset=iso-8859-1"
+              },
+              "Body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>302 Found</title>\n</head><body>\n<h1>Found</h1>\n<p>The document has moved <a href=\"https://ievonline.pucpr.edu\">here</a>.</p>\n<hr>\n<address>Apache/2.4.41 (Ubuntu) Server at 192.0.2.123 Port 80</address>\n</body></html>\n"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

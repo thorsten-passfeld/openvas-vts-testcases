@@ -1,0 +1,12 @@
+{
+  "RecordedHost": "192.0.2.123",
+  "RecordedPorts": {
+    "HTTP": 9000
+  },
+  "RecordedPlugins": [
+    "1.3.6.1.4.1.25623.1.0.114015",
+    "1.3.6.1.4.1.25623.1.0.114162"
+  ],
+  "KbArgs": "",
+  "Result": "Detected Portainer UIVersion:       1.22.0Location:      /CPE:           cpe:/a:portainer:portainer:1.22.0Concluded from version/product identification result:\"Version\":\"1.22.0\"Concluded from version/product identification location:http:///main.82dd1cbf3e3da3500b77.jsInstalled version: 1.22.0Fixed version:     1.22.1"
+}

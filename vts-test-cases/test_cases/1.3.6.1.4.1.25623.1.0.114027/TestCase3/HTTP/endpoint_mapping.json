@@ -1,0 +1,127 @@
+{
+  "Endpoints": [
+    {
+      "URI": "/",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "pragma": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5)"
+                },
+                "Body": {},
+                "Responses": [
+                  0
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "200",
+              "Headers": {
+                "Server": "Apache/2.4.20 (Unix) OpenSSL/1.0.2j",
+                "Last-Modified": "Mon, 06 Mar 2017 13:27:46 GMT",
+                "ETag": "\"2dd-54a0fdc631880\"",
+                "Accept-Ranges": "bytes",
+                "Keep-Alive": "timeout=5, max=100",
+                "Content-Type": "text/html"
+              },
+              "Body": "<!DOCTYPE html><html><head><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta charset=\"utf-8\"><meta name=\"author\" content=\"Axis Communications AB\"><meta name=\"apple-mobile-web-app-capable\" content=\"yes\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no\"><title>AXIS</title><link rel=\"shortcut icon\" href=\"img/favicon.ico\"></head><body><noscript><span class=\"noscript-content\">JavaScript is disabled or not supported by the browser. To use the Axis web application, enable JavaScript.</span></noscript><div class=\"page-wrap waiting\" id=\"pageWrap\"></div><script src=\"js/modernizr.js?1.11.16\"></script><script src=\"js/bootstrap.js?1.11.16\"></script></body></html>"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "URI": "/axis-cgi/prod_brand_info/getbrand.cgi",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "pragma": "no-cache",
+                  "cache-control": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5~dev1)",
+                  "accept": "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*",
+                  "accept-language": "en",
+                  "accept-charset": "iso-8859-1,*,utf-8"
+                },
+                "Body": {},
+                "Responses": [
+                  0
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "200",
+              "Headers": {
+                "Server": "Apache/2.4.20 (Unix) OpenSSL/1.0.2j",
+                "Keep-Alive": "timeout=5, max=100",
+                "Transfer-Encoding": "chunked",
+                "Content-Type": "application/json"
+              },
+              "Body": "{\n  \"Brand\": {\n    \"Brand\": \"AXIS\",\n    \"ProdFullName\": \"AXIS M2026-LE Mk II Network Camera\",\n    \"ProdShortName\": \"AXIS M2026-LE Mk II\",\n    \"ProdNbr\": \"M2026-LE-MkII\",\n    \"ProdType\": \"Network Camera\"\n  }\n}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "URI": "/js/bootstrap.js",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "pragma": "no-cache",
+                  "cache-control": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5)",
+                  "accept": "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*",
+                  "accept-language": "en",
+                  "accept-charset": "iso-8859-1,*,utf-8",
+                  "accept-encoding": "gzip, deflate"
+                },
+                "Body": {},
+                "Responses": [
+                  0
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "200",
+              "Headers": {
+                "Server": "Apache/2.4.20 (Unix) OpenSSL/1.0.2j",
+                "Vary": "Accept-encoding",
+                "Last-Modified": "Mon, 06 Mar 2017 13:28:02 GMT",
+                "ETag": "\"66c-54a0fdd573c80\"",
+                "Accept-Ranges": "bytes",
+                "Content-Encoding": "gzip",
+                "Keep-Alive": "timeout=5, max=99",
+                "Content-Type": "text/javascript"
+              },
+              "Body": "var vendorLib=function(e){function t(n){if(o[n])return o[n].exports;var r=o[n]={i:n,l:!1,exports:{}};return e[n].call(r.exports,r,r.exports,t),r.l=!0,r.exports}var o={};return t.m=e,t.c=o,t.i=function(e){return e},t.d=function(e,o,n){t.o(e,o)||Object.defineProperty(e,o,{configurable:!1,enumerable:!0,get:n})},t.n=function(e){var o=e&&e.__esModule?function(){return e.default}:function(){return e};return t.d(o,\"a\",o),o},t.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},t.p=\"/\",t(t.s=1134)}({104:function(e,t){e.exports={tagged:!0,version:\"1.11.16\"}},105:function(e,t,o){\"use strict\";Object.defineProperty(t,\"__esModule\",{value:!0});var n=o(27),r=o(104),i=\"cssTheme\",a=[\"lightTheme\",\"darkTheme\"],u=a[0],l=\"theme\",s={DEFAULT_THEME:u,_themeLocalStorage:(0,n.getLocalStorageValue)(i),_isLoadingTheme:!1,_createLinkTag:function(){var e=document.createElement(\"link\");return e.rel=\"stylesheet\",e},_injectTheme:function(e){var t=this,o=document.getElementById(l),n=this._createLinkTag();this._isLoadingTheme=!0,n.onload=function(){t._isLoadingTheme=!1,n.id=l,o&&document.head.removeChild(o)},n.onerror=function(){t._isLoadingTheme=!1},n.href=\"css/\"+e+\".css?ver=\"+r.version,o?document.head.insertBefore(n,o):document.head.appendChild(n)},_applyTheme:function(e){this._isLoadingTheme||e&&e===this._themeLocalStorage&&document.getElementById(l)||(a.indexOf(e)<0&&(e=u),this._injectTheme(e),this._themeLocalStorage!==e&&((0,n.setLocalStorageValue)(i,e),this._themeLocalStorage=e))},initialize:function(){this._applyTheme((0,n.getLocalStorageValue)(i))},switchTheme:function(){this._applyTheme(a[this._themeLocalStorage===a[0]?1:0])},resetTheme:function(){this._themeLocalStorage!==u&&this._applyTheme(u)}};t.default=s},1134:function(e,t,o){\"use strict\";function n(e){return e&&e.__esModule?e:{default:e}}function r(e,t){if(!(t<0||t>=e.length)){var o=e[t],n=document.createElement(\"script\");n.setAttribute(\"src\",o),n.onload=function(){r(e,t+1)},document.head.appendChild(n)}}function i(){document.location.href=\"notSupported/notSupported.html\"}function a(){s.default.initialize(),r(d,0)}var u=o(31),l=o(105),s=n(l),c=o(104),d=[\"js/vendor.js?ver=\"+c.version,\"js/main.js?ver=\"+c.version];u.hasAllNeededFeatures?a():i()},27:function(e,t,o){\"use strict\";function n(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(t,\"__esModule\",{value:!0}),t.setLocalStorageValue=t.getLocalStorageValue=void 0;var r=o(71),i=n(r),a=o(31),u=function(e){return a.hasLocalStorageSupport?window.localStorage.getItem(e):i.default[e]},l=function(e,t){a.hasLocalStorageSupport&&window.localStorage.setItem(e,t)};t.getLocalStorageValue=u,t.setLocalStorageValue=l},31:function(e,t,o){\"use strict\";Object.defineProperty(t,\"__esModule\",{value:!0});var n=function(){var e=!1;return Modernizr.audio&&(e={m4a:Boolean(Modernizr.audio.m4a),mp3:Boolean(Modernizr.audio.mp3),ogg:Boolean(Modernizr.audio.ogg),opus:Boolean(Modernizr.audio.opus),wav:Boolean(Modernizr.audio.wav)}),e},r=function(){return{flexbox:Modernizr.flexbox,flexboxlegacy:Modernizr.flexboxlegacy,flexboxtweener:Modernizr.flexboxtweener,flexwrap:Modernizr.flexwrap}},i=function(){return Modernizr.fullscreen},a=function(){return Modernizr.inputtypes.range},u=function(){return Modernizr.json},l=function(){return Modernizr.localstorage},s=function(){return Modernizr.mediaqueries},c=function(){return{inlinesvg:Modernizr.inlinesvg,smil:Modernizr.smil,embedObject:Modernizr.svg,svgasimg:Modernizr.svgasimg,svgclippaths:Modernizr.svgclippaths,svgfilterssvgfilters:Modernizr.svgfilters,svgforeignobject:Modernizr.svgforeignobject}},d=function(){return Modernizr.videosupport},f=function(){return Modernizr.downloadsupport},g=function(){return Modernizr.mobilecheck},h=function(){var e=r(),t=e.flexbox||e.flexboxlegacy||e.flexboxtweener,o=d(),n=o.H264||o.MJPEG,i=c(),l=i.inlinesvg||i.embedObject||i.svgasimg;return!!(t&&a()&&u()&&s()&&l&&n)},p=n(),m=r(),v=i(),M=h(),_=f(),x=l(),b=a(),z=g().any,L=u(),S=s(),T=c(),y=d();t.audio=p,t.flex=m,t.fullscreen=v,t.hasAllNeededFeatures=M,t.hasDownloadSupport=_,t.hasLocalStorageSupport=x,t.inputRange=b,t.isMobile=z,t.json=L,t.mediaQueries=S,t.svg=T,t.videoSupport=y},71:function(e,t,o){\"use strict\";Object.defineProperty(t,\"__esModule\",{value:!0}),t.default={i18next:\"en\",cssTheme:\"lightTheme\",debug:\"off\",experimental:\"off\",logMetadata:\"off\",ptzButtonActive:\"false\"}}});"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

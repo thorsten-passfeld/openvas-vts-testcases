@@ -1,0 +1,12 @@
+{
+  "RecordedHost": "192.0.2.123",
+  "RecordedPorts": {
+    "HTTP": 8080
+  },
+  "RecordedPlugins": [
+    "1.3.6.1.4.1.25623.1.0.114084",
+    "1.3.6.1.4.1.25623.1.0.114117"
+  ],
+  "KbArgs": "--kb=\"Ports/tcp/8080=1\" --kb=\"Services/www=8080\"",
+  "Result": "Detected Amcrest Technologies IP CameraVersion:       unknownLocation:      /CPE:           cpe:/a:amcrest:ip_cameraConcluded from version/product identification location:http:///custom_lang/English.txtExtra information:Version detection requires login.Vulnerable URL: http:///videotalk"
+}

@@ -1,0 +1,46 @@
+{
+  "Endpoints": [
+    {
+      "URI": "/",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "pragma": "no-cache",
+                  "cache-control": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5~dev1)",
+                  "accept": "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*",
+                  "accept-language": "en",
+                  "accept-charset": "iso-8859-1,*,utf-8"
+                },
+                "Body": {},
+                "Responses": [
+                  0
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "200",
+              "Headers": {
+                "Server": "Apache/2.4.52 (Ubuntu)",
+                "Last-Modified": "Wed, 01 Jun 2022 18:49:43 GMT",
+                "ETag": "\"767-5e0675a3dda2c\"",
+                "Accept-Ranges": "bytes",
+                "Vary": "Accept-Encoding",
+                "Content-Type": "text/html"
+              },
+              "Body": "<!DOCTYPE HTML>\r\n<!--google.com-->\r\n<head>\r\n    <html lang=\"en\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n    <style>\r\n        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap');\r\n        html {\r\n    background-color: #202124\r\n}\r\nh1 {\r\n    font-family: 'JetBrains Mono', monospace;\r\n    font-weight: 900;\r\n    color: #d8dee9;\r\n    font-size: 36px;\r\n    margin: 1em auto;\r\n    max-width: 1000px;\r\n    padding: .1em;\r\n    line-height: 0.1;\r\n    text-align: center\r\n}\r\nh2 {\r\n    font-family: 'JetBrains Mono', monospace;\r\n    font-weight: 700;\r\n    color: #d8dee9;\r\n    font-size: 22px;\r\n    margin: 1em auto;\r\n    max-width: 1000px;\r\n    padding: .1em;\r\n    line-height: 0.1;\r\n    text-align: center\r\n}\r\n.body {\r\n    font-family: 'JetBrains Mono', monospace;\r\n    font-weight: 400;\r\n    color: #d8dee9;\r\n    font-size: 16px;\r\n    margin: 1em auto;\r\n    max-width: 800px;\r\n    padding: 1em;\r\n    line-height: 1.4;\r\n    text-align: center\r\n}\r\np {\r\n    font-family: 'JetBrains Mono', monospace;\r\n    font-weight: 400;\r\n    color: #d8dee9;\r\n    font-size: 16px;\r\n    margin: .05em auto;\r\n    max-width: 800px;\r\n    padding: .05em;\r\n    line-height: 1.35;\r\n    text-align: center\r\n}\r\na {\r\n    color: #c04f0d\r\n}\r\na:visited {\r\n    color: #944a04\r\n}\r\n        </style>\r\n    </head>\r\n<title>Hello Nerds!</title>\r\n<div class=\"body\">\r\n<body>\r\n<h1>Minor Key</h1>\r\n<h2>Website Portal thing ig</h2>\r\n\r\n<p>Welcome to whatever the fuck this is!</p><br>\r\n<p>This is a basic ass website for this url since I had nothing else better to do with my life.</p><br>\r\n\r\n<p2>There might be a Minecraft Server up at <i>play.thatistotally.us</i><p2>\r\n    <p>\r\n        <button onclick=\"myFunction()\">Copy text</button>\r\n        <input type=\"text\" value=\"play.thatistotally.us\" id=\"myInput\">\r\n    </p>\r\n</div>\r\n</div>\r\n</body>\r\n</html>\r\n\r\n\r\n"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

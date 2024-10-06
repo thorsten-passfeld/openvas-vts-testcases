@@ -1,0 +1,93 @@
+{
+  "Endpoints": [
+    {
+      "URI": "/",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "pragma": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5)"
+                },
+                "Body": {},
+                "Responses": [
+                  0
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "302",
+              "Headers": {
+                "TeamCity-Node-Id": "MAIN_SERVER",
+                "Set-Cookie": "TCSESSIONID=8A66A0EA4A7E531C71860CAB6DD5FD10; Path=/; HttpOnly",
+                "Location": "/login.html",
+                "Keep-Alive": "timeout=60"
+              },
+              "Body": ""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "URI": "/login.html",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "pragma": "no-cache",
+                  "cache-control": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5~dev1)",
+                  "accept": "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*",
+                  "accept-language": "en",
+                  "accept-charset": "iso-8859-1,*,utf-8"
+                },
+                "Body": {},
+                "Responses": [
+                  0
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "200",
+              "Headers": {
+                "TeamCity-Node-Id": "MAIN_SERVER",
+                "Cache-Control": "no-store",
+                "Set-Cookie": [
+                  "TCSESSIONID=02292483F714203D94C71041A53E111F; Path=/; HttpOnly",
+                  "__test=1; Max-Age=31536000; Expires=Fri, 07-Jul-2023 19:21:37 GMT; Path=/"
+                ],
+                "Content-Security-Policy": "frame-ancestors 'self' http://95.216.4.151/;default-src 'self' 'unsafe-inline' http://95.216.4.151/;script-src 'self' 'unsafe-inline' 'unsafe-eval';style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;connect-src 'self' ws: wss:;img-src 'self' data: blob: http://127.0.0.1:63330 http://127.0.0.1:63331 http://127.0.0.1:63332 http://127.0.0.1:63333 http://127.0.0.1:63334 http://127.0.0.1:63335 http://127.0.0.1:63336 http://127.0.0.1:63337 http://127.0.0.1:63338 http://127.0.0.1:63339 http://95.216.4.151/;font-src 'self' data: https://fonts.gstatic.com;frame-src 'self' http://95.216.4.151/",
+                "X-Frame-Options": "sameorigin",
+                "Strict-Transport-Security": "max-age=31536000;",
+                "X-Content-Type-Options": "nosniff",
+                "X-XSS-Protection": "1; mode=block",
+                "Referrer-Policy": "origin-when-cross-origin",
+                "mixed-content": "noupgrade",
+                "Content-Type": "text/html;charset=UTF-8",
+                "Content-Language": "en",
+                "Transfer-Encoding": "chunked",
+                "Keep-Alive": "timeout=60"
+              },
+              "Body": "\n\n  \n  \n    <!DOCTYPE html>\n    <html lang=\"en\">\n    \n    <head>\n      <title>Log in to TeamCity &mdash; TeamCity</title>\n      \n\n\n\n\n\n\n\n      \n<link rel=\"Shortcut Icon\" href=\"/favicon.ico?v10\" type=\"image/x-icon\" sizes=\"16x16 32x32\"/>\n<meta charset=\"UTF-8\">\n\n<meta name=\"format-detection\" content=\"telephone=no\"/>\n\n<meta name=\"application-name\" content=\"TeamCity (Log in to TeamCity &amp;mdash; TeamCity)\"/>\n<meta name=\"description\" content=\"Powerful Continuous Integration and Build Server\"/>\n<meta name=\"viewport\" content=\"width=1000\"/>\n\n<link rel=\"apple-touch-icon\" sizes=\"57x57\" href=\"/img/icons/apple-touch-icon-57x57.png\"/>\n<link rel=\"apple-touch-icon\" sizes=\"60x60\" href=\"/img/icons/apple-touch-icon-60x60.png\"/>\n<link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"/img/icons/apple-touch-icon-72x72.png\"/>\n<link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"/img/icons/apple-touch-icon-76x76.png\"/>\n<link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"/img/icons/apple-touch-icon-114x114.png\"/>\n<link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"/img/icons/apple-touch-icon-120x120.png\"/>\n<link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"/img/icons/apple-touch-icon-144x144.png\"/>\n<link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"/img/icons/apple-touch-icon-152x152.png\"/>\n<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/img/icons/apple-touch-icon-180x180.png\"/>\n\n<link rel=\"mask-icon\" href=\"/img/icons/teamcity.black.svg?v2\" color=\"black\"/>\n\n<meta name=\"msapplication-TileColor\" content=\"#000000\"/>\n\n<meta name=\"msapplication-TileImage\" content=\"/img/icons/mstile-144x144.png\"/>\n<meta name=\"msapplication-square70x70logo\" content=\"/img/icons/mstile-70x70.png\"/>\n<meta name=\"msapplication-square150x150logo\" content=\"/img/icons/mstile-150x150.png\"/>\n<meta name=\"msapplication-wide310x150logo\" content=\"/img/icons/mstile-310x150.png\"/>\n<meta name=\"msapplication-square310x310logo\" content=\"/img/icons/mstile-310x310.png\"/>\n<meta name=\"tc-csrf-token\" content=\"497500c8-33e1-46a0-8f21-61792eff1883\"/>\n\n\n      \n\n\n<style id=\"17fe43534e9\" type=\"text/css\">\n    @import \"/res/6114880409683721742.css?v=1648801104092\";\n  \n</style>\n\n\n      \n\n\n<script type=\"text/javascript\" src=\"/res/-3603535750726916660.js?v=1648801104092\"></script>\n\n\n      <script type=\"text/javascript\">\n  var base_uri=window.location.protocol+\"//\"+window.location.host+\"\";\n</script>\n\n\n      \n\n\n\n<script type=\"text/javascript\" src=\"/res/-6060474511570324796.js?v=1648801104092\"></script>\n\n\n      \n\n\n\n\n<style id=\"17fe43534ea\" type=\"text/css\">\n    @import \"/res/459560978433157637.css?v=1648801104092\";\n  \n</style>\n\n\n\n\n\n<script type=\"text/javascript\" src=\"/res/5833290380196265600.js?v=1648801104092\"></script>\n\n\n<script type=\"text/javascript\">\n  window.$j = jQuery.noConflict();\n</script>\n\n\n\n\n<script type=\"text/javascript\" src=\"/res/-5410233700357870077.js?v=1648801104092\"></script>\n\n\n      \n\n\n\n<script type=\"text/javascript\" src=\"/res/-4735258447288317237.js?v=1648801104092\"></script>\n\n      \n\n\n\n<script type=\"text/javascript\" src=\"/res/-5608550772410495423.js?v=1648801104092\"></script>\n\n\n\n      \n\n\n\n\n\n\n\n<script type=\"text/javascript\">\n  var internalProps = [];\n\n  internalProps['teamcity.ui.experimental'] = 'disableDefault';\n  internalProps['teamcity.ui.useServiceWorkers'] =  true;\n  internalProps['teamcity.ui.forceServiceWorkerSkipWaiting'] =  true;\n\n  internalProps['teamcity.ui.websocket.connectTimeout'] =  3000;\n  internalProps['teamcity.ui.webSocket.logToConsole'] =  false;\n\n  internalProps['teamcity.ui.pollInterval'] = 6;\n  internalProps['teamcity.ui.serverAvailability.pollInterval'] = 3;\n\n  internalProps['teamcity.ui.events.pollInterval'] = 6;\n  internalProps['teamcity.ui.systemProblems.pollInterval'] = 40;\n  internalProps['teamcity.ui.problemsSummary.pollInterval'] = 8;\n  internalProps['teamcity.ui.buildQueueEstimates.pollInterval'] = 10;\n  internalProps['teamcity.ui.subscriptions.debounceInterval'] = 3000;\n\n  // Doesn't use BS.SubscriptionManager and standard subscription mechanism\n  internalProps['teamcity.ui.cleanupNotificatorProgress.pollInterval'] = 6;\n\n  internalProps['teamcity.ui.codeMirrorEditor.enabled'] = true;\n  internalProps['teamcity.ui.customConfirm'] = false;\n  internalProps['teamcity.ui.restBreadcrumbs.popupInMainLink.enabled'] = false;\n\n  internalProps['teamcity.ui.serverRestart.warningDelay'] = 120;\n  internalProps['teamcity.ui.serverUpdate.warningDelay'] = 120;\n\n  internalProps['teamcity.ui.editSettings.showResolveValueIcon'] = false;\n\n  internalProps['teamcity.ui.changesPage.singleExpandedNodeOnly'] = true;\n\n  internalProps['teamcity.ui.rest.base'] = '/app/rest/ui';\n\n  internalProps['teamcity.internal.buildChangesPopupLimit'] = '100';\n\n  internalProps['teamcity.development.mode'] = false;\n\n  internalProps['teamcity.ui.showLicenseAgreementToAllUsers'] = true;\n\n  internalProps['teamcity.ui.sakuraHeader'] = false;\n\n  internalProps['teamcity.ui.showNoCompatibleAgentsPopup'] = true;\n\n  internalProps['teamcity.ui.newTestHistoryPage'] = true;\n\n  internalProps['teamcity.ui.newChangePage'] = true;\n\n  internalProps['teamcity.ui.newChangesPage'] = false;\n\n  internalProps['teamcity.ui.rememberTestGroupingMode'] = true;\n\n  internalProps['teamcity.ui.sakuraQueuePage.enabled'] = true;\n\n  internalProps['teamcity.ui.buildlog.search.enabled'] = true;\n\n  internalProps['teamcity.ui.customWelcomeTitle'] = '';\n\n  internalProps['teamcity.ui.sakuraInvestigationsTab'] = false;\n\n  internalProps['teamcity.ui.newAgentCompatibleConfigurationsTab'] = false;\n\n  internalProps['teamcity.ui.newAgentPoolManagement'] = false;\n\n  internalProps['teamcity.overviewPage.buildTypes.limit'] = 200;\n\n  try {\n    internalProps['teamcity.ui.tabs.linkToMainUI.build'] = '';\n    internalProps['teamcity.ui.tabs.linkToMainUI.buildType'] = '';\n    internalProps['teamcity.ui.tabs.linkToMainUI.project'] = '';\n  } catch (error) {\n    console.log('Iframe Adapter blacklist properties have not been correctly specified');\n  }\n\n</script>\n\n\n      \n\n\n<script type=\"text/javascript\" src=\"/res/-4634852899786694785.js?v=1648801104092\"></script>\n\n\n      \n\n\n\n<script type=\"text/javascript\" src=\"/res/2083999511917917652.js?v=1648801104092\"></script>\n\n\n      \n\n\n\n<style id=\"17fe43534eb\" type=\"text/css\">\n    @import \"/res/-3342039278521329535.css?v=1648801104092\";\n  \n</style>\n<link href=\"/js/ring/styles.7b256b4552740ea098d0.css\" rel=\"stylesheet\">\r\n<script src=\"/js/ring/vendors-node_modules_atlaskit_logo_dist_esm_BitbucketLogo_Icon_js-node_modules_babel_runtime_-ca172c.803d9a7d80c7ae2c9e92.js\"></script>\r\n<script src=\"/js/ring/bundle.05d062843c0de80ee459.js\"></script>\r\n\n\n\n      \n\n\n<style id=\"17fe43534ec\" type=\"text/css\">\n    @import \"/res/-1503540342333606626.css?v=1648801104092\";\n  \n</style>\n\n    \n\n\n\n\n    \n\n\n<script type=\"text/javascript\" src=\"/res/-419506198816766862.js?v=1648801104092\"></script>\n\n    <script type=\"text/javascript\">\n      $j(document).ready(function($) {\n        var loginForm = $('.loginForm');\n\n        $(\"#username\").focus();\n\n        loginForm.attr('action', '/loginSubmit.html');\n        loginForm.submit(function() {\n          return BS.LoginForm.submitLogin();\n        });\n\n        if (BS.Cookie.get(\"__test\") != \"1\") {\n          $(\"#noCookiesEnabledMessage\").show();\n        }\n\n        if ($('#fading').length > 0) {\n          BS.Highlight('fading');\n        }\n\n        const username = {\n          name: 'Username',\n          input: document.getElementById('username'),\n          error: document.getElementById('username-error'),\n          maxLength: 60\n        };\n        const password = {\n          name: 'Password',\n          input: document.getElementById('password'),\n          error: document.getElementById('password-error'),\n          maxLength: 128\n        };\n        const submit = document.querySelector('.loginButton');\n        function validateInput({name, input, error, maxLength}) {\n          if (input.value.length > maxLength) {\n            input.classList.add('errorField');\n            error.textContent = name + ' should be no longer than ' + maxLength + ' characters';\n            return false\n          } else {\n            input.classList.remove('errorField');\n            error.textContent = '';\n            return true;\n          }\n        }\n        function handleChange() {\n          const usernameValid = validateInput(username);\n          const passwordValid = validateInput(password);\n          submit.disabled = !usernameValid || !passwordValid;\n        }\n        username.input.addEventListener('input', handleChange);\n        password.input.addEventListener('input', handleChange);\n      });\n    </script>\n\n    </head>\n\n    <body>\n    \n\n\n\n\n\n\n\n\n    \n\n\n\n\n<div id=\"loginPage\" class=\"initialPage\">\n  <div class=\"page-content-wrapper\">\n    <div id=\"pageContent\">\n      <span class=\"logo\" title=\"TeamCity\"></span>\n      <h1 id=\"header\">Log in to TeamCity</h1>\n\n      \n      \n\n      \n\n\n\n\n\n      \n\n\n\n      \n\n\n\n      <div id=\"errorMessage\" ></div>\n\n      \n\n      \n\n      <div id=\"loginForm\" >\n\n        <form class=\"loginForm\" method=\"post\">\n          \n            <div>\n              <label for=\"username\">Username</label>\n              <input class=\"text\" id=\"username\" type=\"text\" name=\"username\">\n              <span class=\"error\" id=\"username-error\"></span>\n            </div>\n          \n\n          <div>\n            <label for=\"password\">Password</label>\n            <input class=\"text\" id=\"password\" type=\"password\" name=\"password\">\n            <span class=\"error\" id=\"password-error\"></span>\n          </div>\n\n\n          <div class=\"remember-section\">\n          <div  class=\"remember-section__inner\">\n  \n  \n    <input type=\"checkbox\" \n           name=\"remember\"\n           id=\"remember\"\n           class=\"checkbox\"\n           \n           \n           \n           \n           \n           checked\n           \n           value=\"true\">\n    <input type=\"hidden\" name=\"_remember\" value=\"\">\n  \n\n\n            <label class=\"rememberMe\" for=\"remember\">Remember me</label></div>\n\n            <span id=\"resetPasswordContainer\"></span>\n          </div>\n\n          <noscript>\n            <div class=\"noJavaScriptEnabledMessage\">\n              Please enable JavaScript in your browser to proceed with the login.\n            </div>\n          </noscript>\n\n          <div id=\"noCookiesEnabledMessage\" class=\"noCookiesEnabledMessage\" style=\"display: none;\">\n            Please enable cookies in your browser to proceed with the login.\n          </div>\n\n          <div class=\"buttons\">\n            <input class=\"btn loginButton\" type=\"submit\" name=\"submitLogin\" value=\"Log in\">\n            <div class=\"loader-cell\"><i id=\"saving\" style=\"display: none; \" class=\"ring-loader-inline progressRing progressRingSubmitBlock\" title=\"Please wait...\"></i></div>\n          </div>\n\n          <input type=\"hidden\" id=\"publicKey\" name=\"publicKey\" value=\"00d37be495cccd985106fda001b018ab627b72790fd8d01f69f7a79433f836d3779909acbe71debebb299e24f5f661ef6052451068d7c7e4d21ebacb8054e03c415f38503513602a0bed90a34761d83429131f5796d02b5a2775fb192f4267ef51f38d19a832bf301850ed34e934c15151ad91eac3c0af2ec5147edc50fc5e9b13\"/>\n          \n        </form>\n\n        \n          \n        \n      </div>\n\n      \n\n      \n        \n        \n\n  <!-- START EXTENSION CONTENT jetbrains.buildServer.resetPassword.ResetPasswordPageExtension: name:resetPasswordLink: /plugins/reset-password/resetPasswordLink.jsp -->\n    \n\n\n<script type=\"text/javascript\">\n  $j('#resetPasswordContainer').append('<a href=\"/forgotPassword.html\">Reset password</a>');\n</script>\n  <!-- END EXTENSION CONTENT jetbrains.buildServer.resetPassword.ResetPasswordPageExtension -->\n  \n  <!-- START EXTENSION CONTENT jetbrains.buildServer.web.forbiddenDomains.ForbiddenDomainHeaderWarning$Extension: name:jetbrains.buildServer.web.forbiddenDomains.ForbiddenDomainHeaderWarning: /forbiddenDomainWarning.jsp -->\n    \n\n\n\n\n\n\n\n\n\n  <!-- END EXTENSION CONTENT jetbrains.buildServer.web.forbiddenDomains.ForbiddenDomainHeaderWarning$Extension -->\n  \n\n\n\n      \n    \n\n      <div class=\"version\"><span class=\"greyNote version\"><span class=\"vWord\">Version</span> 2021.2.3 (build 99711)</span></div>\n    </div>\n  </div>\n</div>\n\n    <div data-iframe-height></div>\n    </body>\n    </html>\n  \n\n\n"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

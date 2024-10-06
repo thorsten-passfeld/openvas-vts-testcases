@@ -1,0 +1,8 @@
+FROM python:3.9.13-alpine
+
+RUN apk add --update --no-cache iproute2 bash poetry build-base python3-dev libffi-dev && rm -rf /tmp/* /var/cache/apk/*
+
+COPY bin/init_recorder_container.sh /bin
+RUN chmod +x /bin/init_recorder_container.sh
+
+WORKDIR /code

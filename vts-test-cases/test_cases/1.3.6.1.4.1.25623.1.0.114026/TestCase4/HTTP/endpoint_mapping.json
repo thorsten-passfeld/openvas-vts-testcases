@@ -1,0 +1,135 @@
+{
+  "Endpoints": [
+    {
+      "URI": "/",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5)"
+                },
+                "Body": {},
+                "Responses": [
+                  0
+                ]
+              }
+            ],
+            "Subset": [
+              {
+                "ID": "GET2",
+                "URL_Parameters": "?wicket:bookmarkablePage=:com.videoiq.fusion.camerawebapi.ui.pages.LoginPage",
+                "Headers": {
+                  "pragma": "no-cache",
+                  "cache-control": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5~dev1)",
+                  "accept": "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*",
+                  "accept-language": "en",
+                  "accept-charset": "iso-8859-1,*,utf-8"
+                },
+                "Body": {},
+                "Responses": [
+                  1
+                ]
+              },
+              {
+                "ID": "GET3",
+                "URL_Parameters": "",
+                "Headers": {
+                  "pragma": "no-cache",
+                  "cache-control": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5~dev1)",
+                  "accept": "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*",
+                  "accept-language": "en",
+                  "accept-charset": "iso-8859-1,*,utf-8"
+                },
+                "Body": {},
+                "Responses": [
+                  2
+                ]
+              }
+            ]
+          },
+          "Responses": [
+            {
+              "Status": "302",
+              "Headers": {
+                "Server": "nginx/1.5.1",
+                "Expires": "Thu, 01-Jan-1970 00:00:00 GMT",
+                "Set-Cookie": "JSESSIONID=2jpa52wgbambvnn9wfqjraxx;Path=/",
+                "Location": "http://192.0.2.123:80/;jsessionid=2jpa52wgbambvnn9wfqjraxx?wicket:bookmarkablePage=:com.videoiq.fusion.camerawebapi.ui.pages.LoginPage"
+              },
+              "Body": ""
+            },
+            {
+              "Status": "200",
+              "Headers": {
+                "Server": "nginx/1.5.1",
+                "Content-Type": "text/html; charset=utf-8",
+                "Content-Language": "en",
+                "Pragma": "no-cache",
+                "Cache-Control": "no-cache, max-age=0, must-revalidate"
+              },
+              "Body": "<!DOCTYPE html PUBLIC \r\n\t\"-//W3C//DTD XHTML 1.0 Strict//EN\" \r\n\t\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n<html>\r\n<head>\r\n\t<title>Avigilon Camera Login</title>\r\n\t<style>\r\n\tspan.feedbackPanelERROR\r\n\t{\r\n\t\tcolor: yellow;\r\n\t}\r\n\t</style>\r\n</head>\r\n<body style=\"background-color: #334055;\">\r\n\t<div style=\"height: 8ex;\">\r\n\t\t<div style=\"height: 52px; background-image: url(/images/smallLogo.png);background-repeat: no-repeat;\"></div>\r\n \t</div>\r\n\t<div>\r\n\t\t<div style=\"position: absolute; left: 50%; bottom: 50%; width: 20em; height: 20ex; margin-left: -10em\">\r\n\t\t<div style=\"width: 20em;\">\r\n\t\t\t<div style=\"padding: 5px; background-color: #44617D; color: #FFFFFF;\">\r\n\t\t\t\tLogin\r\n\t\t\t</div>\r\n\t\t\t<div style=\"padding: 10px; background-color: #556E88; color: #FFFFFF;\">\r\n\t\t\t\t<form method=\"post\" action=\"?wicket:bookmarkablePage=:com.videoiq.fusion.camerawebapi.ui.pages.LoginPage&amp;wicket:interface=:0:loginPanel:loginForm::IFormSubmitListener::\" id=\"loginForm1\"><div style=\"display:none\"><input type=\"hidden\" name=\"loginForm1_hf_0\" id=\"loginForm1_hf_0\" /></div>\r\n\t\t\t\t\t<table style=\"width: 100%\">\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td><label for=\"userName\">User name:</label></td>\r\n\t\t\t\t\t\t<td><input value=\"\" style=\"width: 16em\" type=\"text\" name=\"userName\" id=\"userName\"/></td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td><label for=\"password\">Password:</label></td>\r\n\t\t\t\t\t\t<td><input value=\"\" style=\"width: 16em\" type=\"password\" name=\"password\" id=\"password\"/></td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr style=\"height: 1ex\"><td></td></tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td colspan=\"2\" align=\"right\"><button type=\"submit\" id=\"login2\" name=\"login\">Login</button></td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t</table>\r\n\t\t\t\t</form>\r\n\t\t\t\t<script type=\"text/javascript\">\r\n\t\t\t\t\tdocument.getElementById('userName').focus();\r\n\t\t\t\t</script>\t\t\t\r\n\t\t\t</div>\r\n\t\t</div>\r\n \t</div>\r\n\t\t<div style=\"position: absolute; left: 50%; top: 50%; width: 20em; height: 10ex; margin-left: -10em;\">\n  \n</div>\r\n\t</div>\r\n</body>\r\n</html>\r\n"
+            },
+            {
+              "Status": "302",
+              "Headers": {
+                "Server": "nginx/1.5.1",
+                "Expires": "Thu, 01-Jan-1970 00:00:00 GMT",
+                "Set-Cookie": "JSESSIONID=12lgpougvt5afykx2ud2kh39x;Path=/",
+                "Location": "http://192.0.2.123:80/;jsessionid=12lgpougvt5afykx2ud2kh39x?wicket:bookmarkablePage=:com.videoiq.fusion.camerawebapi.ui.pages.LoginPage"
+              },
+              "Body": ""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "URI": "/;JSESSIONID=12lgpougvt5afykx2ud2kh39x",
+      "Methods": {
+        "POST": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "POST1",
+                "URL_Parameters": "?wicket:bookmarkablePage=:com.videoiq.fusion.camerawebapi.ui.pages.LoginPage&wicket:interface=:0:loginPanel:loginForm::IFormSubmitListener::",
+                "Headers": {
+                  "pragma": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5)",
+                  "accept-language": "en",
+                  "accept-charset": "iso-8859-1,utf-8;q=0.9,*;q=0.1",
+                  "accept": "*/*",
+                  "accept-encoding": "identity",
+                  "cookie": "JSESSIONID=12lgpougvt5afykx2ud2kh39x",
+                  "content-type": "application/x-www-form-urlencoded"
+                },
+                "Body": {
+                  "0": "loginForm1_hf_0=&userName=supervisor&password=supervisor&login="
+                },
+                "Responses": [
+                  0
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "302",
+              "Headers": {
+                "Server": "nginx/1.5.1",
+                "Location": "http://192.0.2.123:80/;JSESSIONID=12lgpougvt5afykx2ud2kh39x"
+              },
+              "Body": ""
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "RecordedHost": "192.0.2.123",
+  "RecordedPorts": {
+    "HTTP": 8080
+  },
+  "RecordedPlugins": [
+    "1.3.6.1.4.1.25623.1.0.103689"
+  ],
+  "KbArgs": "--kb=\"Ports/tcp/8080=1\"",
+  "Result": "Detected D-Link DIR-855L FirmwareVersion:       1.02Location:      /CPE:           cpe:/o:d-link:dir-855l_firmware:1.02Concluded from version/product identification result:show_words(TA2)</script>: <a href=\"http://support.dlink.com.tw/\">DIR-855Lshow_words(sd_FWV)</script>: 1.02Concluded from version/product identification location:http:///Detected D-Link DIR-855L DeviceVersion:       A1Location:      /CPE:           cpe:/h:d-link:dir-855l:a1Concluded from version/product identification result:show_words(TA3)</script>: A1Concluded from version/product identification location:http:///"
+}

@@ -1,0 +1,170 @@
+{
+  "Endpoints": [
+    {
+      "URI": "/",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "cache-control": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5~dev1)",
+                  "accept": "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*",
+                  "accept-language": "en",
+                  "accept-charset": "iso-8859-1,*,utf-8"
+                },
+                "Body": {},
+                "Responses": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "ID": "GET2",
+                "URL_Parameters": "",
+                "Headers": {
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5)"
+                },
+                "Body": {},
+                "Responses": [
+                  1,
+                  2
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "200",
+              "Headers": {
+                "Server": "Apache",
+                "Last-Modified": "Wed, 29 Jun 2022 19:12:29 GMT",
+                "Content-Type": "text/html",
+                "X-Cacheable": "YES:Forced",
+                "Cache-Control": "must-revalidate, public, max-age=300, stale-while-revalidate=360, stale-if-error=43200",
+                "ETag": "W/\"360-5e29aef2b8140\"",
+                "Vary": "Accept-Encoding",
+                "X-Varnish": "230560",
+                "Age": "0",
+                "Via": "1.1 varnish (Varnish/6.2)",
+                "X-Cache": "MISS",
+                "X-Powered-By": "DreamPress",
+                "Accept-Ranges": "bytes"
+              },
+              "Body": "<!doctype html>\n<html>\n\n\t<head>\n\t\t<title>Site not found &middot; DreamHost</title>\n\t\t<meta http-equiv=\"cache-control\" content=\"no-cache\" />\n\t\t<meta name=\"description\" content=\"The owner of this domain has not yet uploaded their website.\" />\n\t\t<link rel=\"stylesheet\" href=\"//d1a6zytsvzb7ig.cloudfront.net/newpanel/css/singlepage.css\" />\n\t</head>\n\n\t<body>\n\t\t<div class=\"page page-missing\">\n\t\t\t<h1>Site Not Found</h1>\n\n\t\t\t<p>Well, this is awkward. The site you're looking for is not here.</p>\n\t\t\t<p><small>Is this your site? <a href=\"https://help.dreamhost.com/hc/en-us/articles/215613517\"\n\t\t\t\t\t\trel=\"nofollow\">Get more info</a> or <a\n\t\t\t\t\t\thref=\"https://panel.dreamhost.com/index.cgi?tree=support.msg\" rel=\"nofollow\">contact\n\t\t\t\t\t\tsupport</a>.</small></p>\n\n\t\t\t<a href=\"https://www.dreamhost.com/\" class=\"logo\" rel=\"nofollow\">DreamHost</a>\n\t\t</div>\n\t</body>\n\n</html>\n"
+            },
+            {
+              "Status": "200",
+              "Headers": {
+                "Server": "Apache",
+                "Last-Modified": "Wed, 29 Jun 2022 19:12:29 GMT",
+                "Content-Type": "text/html",
+                "X-Cacheable": "YES:Forced",
+                "Cache-Control": "must-revalidate, public, max-age=300, stale-while-revalidate=360, stale-if-error=43200",
+                "ETag": "W/\"360-5e29aef2b8140\"",
+                "Vary": "Accept-Encoding",
+                "X-Varnish": "1574477 230561",
+                "Age": "0",
+                "Via": "1.1 varnish (Varnish/6.2)",
+                "X-Cache": "HIT",
+                "X-Powered-By": "DreamPress",
+                "Accept-Ranges": "bytes"
+              },
+              "Body": "<!doctype html>\n<html>\n\n\t<head>\n\t\t<title>Site not found &middot; DreamHost</title>\n\t\t<meta http-equiv=\"cache-control\" content=\"no-cache\" />\n\t\t<meta name=\"description\" content=\"The owner of this domain has not yet uploaded their website.\" />\n\t\t<link rel=\"stylesheet\" href=\"//d1a6zytsvzb7ig.cloudfront.net/newpanel/css/singlepage.css\" />\n\t</head>\n\n\t<body>\n\t\t<div class=\"page page-missing\">\n\t\t\t<h1>Site Not Found</h1>\n\n\t\t\t<p>Well, this is awkward. The site you're looking for is not here.</p>\n\t\t\t<p><small>Is this your site? <a href=\"https://help.dreamhost.com/hc/en-us/articles/215613517\"\n\t\t\t\t\t\trel=\"nofollow\">Get more info</a> or <a\n\t\t\t\t\t\thref=\"https://panel.dreamhost.com/index.cgi?tree=support.msg\" rel=\"nofollow\">contact\n\t\t\t\t\t\tsupport</a>.</small></p>\n\n\t\t\t<a href=\"https://www.dreamhost.com/\" class=\"logo\" rel=\"nofollow\">DreamHost</a>\n\t\t</div>\n\t</body>\n\n</html>\n"
+            },
+            {
+              "Status": "200",
+              "Headers": {
+                "Server": "Apache",
+                "Last-Modified": "Wed, 29 Jun 2022 19:12:29 GMT",
+                "Content-Type": "text/html",
+                "X-Cacheable": "YES:Forced",
+                "Cache-Control": "must-revalidate, public, max-age=300, stale-while-revalidate=360, stale-if-error=43200",
+                "ETag": "W/\"360-5e29aef2b8140\"",
+                "Vary": "Accept-Encoding",
+                "X-Varnish": "1574478 230561",
+                "Age": "0",
+                "Via": "1.1 varnish (Varnish/6.2)",
+                "X-Cache": "HIT",
+                "X-Powered-By": "DreamPress",
+                "Accept-Ranges": "bytes"
+              },
+              "Body": "<!doctype html>\n<html>\n\n\t<head>\n\t\t<title>Site not found &middot; DreamHost</title>\n\t\t<meta http-equiv=\"cache-control\" content=\"no-cache\" />\n\t\t<meta name=\"description\" content=\"The owner of this domain has not yet uploaded their website.\" />\n\t\t<link rel=\"stylesheet\" href=\"//d1a6zytsvzb7ig.cloudfront.net/newpanel/css/singlepage.css\" />\n\t</head>\n\n\t<body>\n\t\t<div class=\"page page-missing\">\n\t\t\t<h1>Site Not Found</h1>\n\n\t\t\t<p>Well, this is awkward. The site you're looking for is not here.</p>\n\t\t\t<p><small>Is this your site? <a href=\"https://help.dreamhost.com/hc/en-us/articles/215613517\"\n\t\t\t\t\t\trel=\"nofollow\">Get more info</a> or <a\n\t\t\t\t\t\thref=\"https://panel.dreamhost.com/index.cgi?tree=support.msg\" rel=\"nofollow\">contact\n\t\t\t\t\t\tsupport</a>.</small></p>\n\n\t\t\t<a href=\"https://www.dreamhost.com/\" class=\"logo\" rel=\"nofollow\">DreamHost</a>\n\t\t</div>\n\t</body>\n\n</html>\n"
+            },
+            {
+              "Status": "200",
+              "Headers": {
+                "Server": "Apache",
+                "Last-Modified": "Wed, 29 Jun 2022 19:12:29 GMT",
+                "Content-Type": "text/html",
+                "X-Cacheable": "YES:Forced",
+                "Cache-Control": "must-revalidate, public, max-age=300, stale-while-revalidate=360, stale-if-error=43200",
+                "ETag": "W/\"360-5e29aef2b8140\"",
+                "Vary": "Accept-Encoding",
+                "X-Varnish": "230565 230561",
+                "Age": "0",
+                "Via": "1.1 varnish (Varnish/6.2)",
+                "X-Cache": "HIT",
+                "X-Powered-By": "DreamPress",
+                "Accept-Ranges": "bytes"
+              },
+              "Body": "<!doctype html>\n<html>\n\n\t<head>\n\t\t<title>Site not found &middot; DreamHost</title>\n\t\t<meta http-equiv=\"cache-control\" content=\"no-cache\" />\n\t\t<meta name=\"description\" content=\"The owner of this domain has not yet uploaded their website.\" />\n\t\t<link rel=\"stylesheet\" href=\"//d1a6zytsvzb7ig.cloudfront.net/newpanel/css/singlepage.css\" />\n\t</head>\n\n\t<body>\n\t\t<div class=\"page page-missing\">\n\t\t\t<h1>Site Not Found</h1>\n\n\t\t\t<p>Well, this is awkward. The site you're looking for is not here.</p>\n\t\t\t<p><small>Is this your site? <a href=\"https://help.dreamhost.com/hc/en-us/articles/215613517\"\n\t\t\t\t\t\trel=\"nofollow\">Get more info</a> or <a\n\t\t\t\t\t\thref=\"https://panel.dreamhost.com/index.cgi?tree=support.msg\" rel=\"nofollow\">contact\n\t\t\t\t\t\tsupport</a>.</small></p>\n\n\t\t\t<a href=\"https://www.dreamhost.com/\" class=\"logo\" rel=\"nofollow\">DreamHost</a>\n\t\t</div>\n\t</body>\n\n</html>\n"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "URI": "/manual/en/index.html",
+      "Methods": {
+        "GET": {
+          "Criteria": {
+            "Superset": [
+              {
+                "ID": "GET1",
+                "URL_Parameters": "",
+                "Headers": {
+                  "pragma": "no-cache",
+                  "cache-control": "no-cache",
+                  "user-agent": "Mozilla/5.0 [en] (X11, U; OpenVAS-VT 21.4.5~dev1)",
+                  "accept": "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*",
+                  "accept-language": "en",
+                  "accept-charset": "iso-8859-1,*,utf-8"
+                },
+                "Body": {},
+                "Responses": [
+                  0
+                ]
+              }
+            ],
+            "Subset": []
+          },
+          "Responses": [
+            {
+              "Status": "404",
+              "Headers": {
+                "Server": "Apache",
+                "Last-Modified": "Wed, 29 Jun 2022 19:12:29 GMT",
+                "Content-Type": "text/html",
+                "X-Cacheable": "YES:Forced",
+                "Cache-Control": "must-revalidate, public, max-age=300, stale-while-revalidate=360, stale-if-error=43200",
+                "ETag": "W/\"360-5e29aef2b8140\"",
+                "Vary": "Accept-Encoding",
+                "X-Varnish": "230563",
+                "Age": "0",
+                "Via": "1.1 varnish (Varnish/6.2)",
+                "X-Cache": "MISS",
+                "X-Powered-By": "DreamPress"
+              },
+              "Body": "<!doctype html>\n<html>\n\n\t<head>\n\t\t<title>Site not found &middot; DreamHost</title>\n\t\t<meta http-equiv=\"cache-control\" content=\"no-cache\" />\n\t\t<meta name=\"description\" content=\"The owner of this domain has not yet uploaded their website.\" />\n\t\t<link rel=\"stylesheet\" href=\"//d1a6zytsvzb7ig.cloudfront.net/newpanel/css/singlepage.css\" />\n\t</head>\n\n\t<body>\n\t\t<div class=\"page page-missing\">\n\t\t\t<h1>Site Not Found</h1>\n\n\t\t\t<p>Well, this is awkward. The site you're looking for is not here.</p>\n\t\t\t<p><small>Is this your site? <a href=\"https://help.dreamhost.com/hc/en-us/articles/215613517\"\n\t\t\t\t\t\trel=\"nofollow\">Get more info</a> or <a\n\t\t\t\t\t\thref=\"https://panel.dreamhost.com/index.cgi?tree=support.msg\" rel=\"nofollow\">contact\n\t\t\t\t\t\tsupport</a>.</small></p>\n\n\t\t\t<a href=\"https://www.dreamhost.com/\" class=\"logo\" rel=\"nofollow\">DreamHost</a>\n\t\t</div>\n\t</body>\n\n</html>\n"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

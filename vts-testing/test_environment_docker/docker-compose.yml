@@ -1,0 +1,72 @@
+version: "3.9"
+
+services:
+  vulnerability-tests:
+    image: ghcr.io/greenbone/vulnerability-tests:enterprise-main
+    container_name: testing_vts
+    environment:
+      STORAGE_PATH: /var/lib/openvas/21.04/vt-data/nasl
+    volumes:
+      - vt_data_vol:/mnt
+
+  redis-server:
+    image: greenbone/redis-server
+    container_name: testing_redis_server
+    restart: on-failure
+    #cap_drop:
+    #  - ALL
+    #ports:
+    #  - 6379:6379
+    volumes:
+      - /tmp/gvm/redis_socket2:/run/redis/
+
+  openvas-scanner:
+    build:
+      context: .
+      dockerfile: Dockerfile_OpenVAS
+    cap_add:
+      - NET_ADMIN
+    command: sleep infinity
+    container_name: testing_openvas_scanner
+    network_mode: "bridge"
+    volumes:
+      - vt_data_vol:/openvas_plugins
+      - /tmp/gvm/redis_socket2:/run/redis/
+    networks:
+      scan_testing_net:
+        ipv4_address: 10.10.0.3
+    depends_on:
+      - vulnerability-tests
+      - redis-server
+
+  oid-filename-mapping:
+    build:
+      context: .
+      dockerfile: Dockerfile_OID_Filename_Mapping
+    command: bash /bin/init_oid_filename_mapping.sh
+    container_name: testing_oid_filename_mapper
+    volumes:
+      - vt_data_vol:/openvas_plugins
+      - oid_data_vol:/oid_mapping_data
+      - ../oid_filename_mapping/:/code
+      - /var/run/docker.sock:/var/run/docker.sock
+    depends_on:
+      - vulnerability-tests
+
+  # TODO: TestCases
+
+  # Target emulator is started dynamically by vts-testing
+
+volumes:
+  vt_data_vol:
+  oid_data_vol:
+
+networks:
+  scan_testing_net:
+    driver: bridge
+    driver_opts:
+      com.docker.network.enable_ipv6: "false"
+    ipam:
+     config:
+       - subnet: 10.10.0.0/16
+         gateway: 10.10.0.1

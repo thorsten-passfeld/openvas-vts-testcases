@@ -1,0 +1,9 @@
+FROM greenbone/openvas-scanner:latest
+
+RUN apt update && apt install -y iproute2 && rm -rf /var/lib/apt/lists/*
+
+# Configure OpenVAS so that this type of scanning is possible
+RUN echo "unscanned_closed = no" >> /etc/openvas/openvas.conf
+
+COPY bin/init_scanner_container.sh /bin
+RUN chmod +x /bin/init_scanner_container.sh

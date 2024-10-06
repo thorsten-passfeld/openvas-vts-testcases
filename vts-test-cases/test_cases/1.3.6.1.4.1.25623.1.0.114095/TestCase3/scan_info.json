@@ -1,0 +1,11 @@
+{
+  "RecordedHost": "192.0.2.123",
+  "RecordedPorts": {
+    "HTTP": 8080
+  },
+  "RecordedPlugins": [
+    "1.3.6.1.4.1.25623.1.0.114095"
+  ],
+  "KbArgs": "--kb=\"Ports/tcp/8080=1\" --kb=\"Services/www=8080\"",
+  "Result": "Detected Zavio IP CameraVersion:       unknownLocation:      /CPE:           cpe:/h:zavio:ip_camera_cb5220Concluded from version/product identification location:http:///profileExtra information:Detected model: CB5220"
+}

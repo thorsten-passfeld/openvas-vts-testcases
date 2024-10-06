@@ -1,0 +1,11 @@
+{
+  "RecordedHost": "192.0.2.123",
+  "RecordedPorts": {
+    "HTTP": 8080
+  },
+  "RecordedPlugins": [
+    "1.3.6.1.4.1.25623.1.0.103689"
+  ],
+  "KbArgs": "--kb=\"Ports/tcp/8080=1\"",
+  "Result": "Detected D-Link DIR-600 FirmwareVersion:       2.16Location:      /CPE:           cpe:/o:d-link:dir-600_firmware:2.16Concluded from version/product identification result:Server: Linux, HTTP/1.1, DIR-600 Ver 2.16Detected D-Link DIR-600 DeviceVersion:       BxLocation:      /CPE:           cpe:/h:d-link:dir-600:bxConcluded from version/product identification result:Hardware Version : Bx<Concluded from version/product identification location:http:///"
+}
